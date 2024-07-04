@@ -1,7 +1,6 @@
 // const People = require("../models/peopleModel");
 const sgMail = require("@sendgrid/mail");
 const bcrypt = require("bcrypt");
-require("dotenv").config();
 
 const mongo = require('../adaptor/mongodb.js');
 
@@ -9,11 +8,10 @@ const reqHeadersDB = (req) => {
   return req.headers['x-key-db'] ? req.headers['x-key-db'] : null;
 }
 
-// API_KEY =
-//   "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";
+API_KEY =
+  "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";
 
-// sgMail.setApiKey(API_KEY);
-sgMail.setApiKey(process.env.API_KEY);
+sgMail.setApiKey(API_KEY);
 
 const addPeople = async (req, res) => {
   let admin_id, people_id;

@@ -6,9 +6,10 @@ const validator = require('validator')
 const speakeasy = require('speakeasy')
 const qrcode = require('qrcode')
 const sgMail = require('@sendgrid/mail');
-require("dotenv").config();
+API_KEY = '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';
 
-sgMail.setApiKey(process.env.API_KEY);
+sgMail.setApiKey(API_KEY);
+
 
 const createToken = (_id) => {
   return jwt.sign({ _id }, process.env.SECRET, { expiresIn: '3d' })
