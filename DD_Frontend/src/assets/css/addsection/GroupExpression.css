@@ -1,0 +1,50 @@
+/* #MainGrpExpDiv{
+    display: grid;
+    grid-template-columns: 0.9fr 1.2fr 2.2fr 0.3fr;
+    height: 73px;  
+}
+#GrpExpOperatorsDiv{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+}
+#grpExpTrashIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+#grpexpdeletebtn{
+text-align: center;
+    font-size: 22px;
+    color: red;
+    background-color: white;
+    font-weight: 400;
+}
+#grpExpvalue1Input,#grpExpvalue2Input{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    border: 0.1px solid #ccc;
+    outline-color: #045679;
+}
+#grpExpValue1Div,#grpExpValue2Div{
+    height: 73px;
+}
+#grpExpValue1Label,#grpExpvalue2Label{
+position: relative;
+    bottom: 20px;
+    color: #045679;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+
+}
+.grpExpButton{
+    background-color: #045679;
+    border: 1px solid red;
+    position: absolute;
+    top: 10px;
+}
+#grpExpInput{
+    border-left: 2px solid #045679;
+} */

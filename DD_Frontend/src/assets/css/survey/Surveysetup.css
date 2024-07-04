@@ -1,0 +1,188 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.rowsurvey {
+  padding-left: 66px;
+  padding-top: 65px;
+  background-color: white;
+  display: flex;
+}
+#backk {
+  position: relative;
+  left: 7.2%;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: unset;
+  justify-content: center;
+  height: 59px;
+  cursor: pointer;
+  border: none;
+  cursor: pointer;
+}
+#backk:hover{
+  color:#216c98;
+}
+.rightsurvey {
+  background-color: white;
+  z-index: 1;
+  padding-right: 4px;
+  padding-left: 4px;
+  position: relative;
+  width: 100%;
+}
+.approvesurvey1,
+.approvesurvey2 {
+  padding: 6px;
+  color: rgb(71, 196, 246);
+  border-radius: 24px;
+  background-color: rgb(247, 247, 247);
+  text-decoration: none;
+  border: 2px solid skyblue;
+  font-size: 10px;
+  font-weight: bold;
+}
+.approvesurvey1:hover,
+.approvesurvey2:hover {
+  background-color: #016894;
+  color: aliceblue;
+}
+.containersurvey {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#contentS1 {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 10fr 1fr 1fr;
+}
+div#caticonid,
+.catIcon {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: rgb(89, 86, 86);
+  height: 59px;
+}
+#catIcon:hover{
+  color:#216c98;
+}
+.calcIcon {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  height: 59px;
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+.calcIcon:hover{
+  color:#216c98;
+}
+#clipLabel,
+#calcLabel {
+  font-size: 10px;
+  font-weight: bold;
+  color: black;
+}
+div#headsurvey2 {
+  display: flex;
+  height: 59px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.surveyhead2 {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 0.35fr;
+  height: 59px;
+}
+.export {
+  padding: 6px;
+  color: rgb(71, 196, 246);
+  border-radius: 24px;
+  background-color: rgb(247, 247, 247);
+  text-decoration: none;
+  border: 2px solid skyblue;
+  font-size: 10px;
+  font-weight: bold;
+  float: left;
+  margin-left: 10px;
+}
+
+#file {
+  padding: 6px;
+  color: rgb(71, 196, 246);
+  border-radius: 24px;
+  background-color: rgb(247, 247, 247);
+  text-decoration: none;
+  border: 2px solid skyblue;
+  font-size: 10px;
+  font-weight: bold;
+  float: left;
+  margin-left: 13px;
+}
+.save {
+  padding-top: 10px;
+}
+.savee {
+  padding: 6px;
+  color: rgb(71, 196, 246);
+  border-radius: 24px;
+  background-color: rgb(247, 247, 247);
+  text-decoration: none;
+  border: 2px solid skyblue;
+  font-size: 10px;
+  font-weight: bold;
+  float: left;
+  margin-left: 22%;
+}
+.resumecalc {
+  padding: 6px;
+  color: rgb(71, 196, 246);
+  border-radius: 24px;
+  background-color: rgb(247, 247, 247);
+  text-decoration: none;
+  border: 2px solid skyblue;
+  font-size: 10px;
+  font-weight: bold;
+  float: left;
+  margin-left: 221px;
+}
+#containerSA {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 0.25fr 0.25fr;
+}
+#contentS4,
+#contentS5 {
+  height: 59px;
+  border-bottom: 0.1px solid rgb(218, 217, 217);
+  border-top: 0.1px solid rgb(218, 217, 217);
+}
+#containerSB {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 0.25fr 0.25fr;
+}
+#deletesurveysection {
+  margin-top: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deletesurvey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+} */

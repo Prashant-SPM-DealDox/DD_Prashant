@@ -1,0 +1,447 @@
+#accountOuterDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  width: 100%;
+}
+.timeinputs {
+  border: none;
+  outline: none;
+  height: 20px;
+  width: 46%;
+}
+.timestampsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+.timestamplabels {
+  font-size: 8px;
+  color: #216c98;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.timepstamp_row {
+  border: 1px solid #bca9a9;
+  width: 100%;
+  height: 30px;
+  border-left: none;
+  border-right: none;
+}
+.timestamp_values {
+  font-size: 11px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#InternalOuterDiv {
+  font-size: 14px;
+  font-weight: 600;
+  height: 35px;
+  border-bottom: 1px solid #ccc;
+  margin-left: 6px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#extReflabel1,
+#extReflabel2,
+#extReflabel3 {
+  font-size: 9px;
+  color: #216c98;
+  padding: 5px 0px 5px 8px;
+}
+#notesbutton,
+#extRefbutton,
+#InternalIdbutton,
+#linkButton,
+#extsecondbutton,
+#bidTeamButton,
+#skillbutton,
+#Rolebutton,
+#Exchangebutton,
+#bidTeamButton,
+#pdfButton,
+#wordGeneratebutton,
+#documentexportbtn,
+#Doctypebutton {
+  border: none;
+  width: 100%;
+  background-color: white;
+  text-align: left;
+  color: #216c98;
+  font-weight: 600;
+  height: 29px;
+  font-size: 12px;
+  padding-left: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+#timestamp {
+  border: none;
+  width: 100%;
+  background-color: white;
+  text-align: left;
+  color: #216c98;
+  font-weight: 600;
+  height: 12px;
+  font-size: 12px;
+  padding-left: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.hr {
+  border: 0.01px solid #ccc;
+  border-bottom-width: 1px;
+}
+.timestampsDivs {
+  display: flex;
+}
+
+#ExtRef1,
+#ExtRef2,
+#ExtRef3 {
+  border: none;
+  height: 33px;
+  width: 100%;
+  outline-color: #216c98;
+  padding-left: 10px;
+}
+#noteInput {
+  border: none;
+  height: 33px;
+  width: 100%;
+  outline: 1px solid grey;
+  padding-left: 10px;
+}
+#extReflabel1,
+#extReflabel2,
+#extReflabel3 {
+  padding: 8px;
+}
+
+#selectFile:hover {
+  color: #216c98;
+}
+#selectFile {
+  font-weight: 600;
+}
+#filecontents {
+  padding: 0px 14px;
+  display: flex;
+  justify-content: space-between;
+}
+#fileContent {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.plusFont {
+  font-size: 15px;
+  text-align: center;
+  color: #216c98;
+  cursor: pointer;
+}
+#filesExternalDiv,
+#SkillOuter,
+#RoleOuter {
+  width: 100%;
+  text-align: center;
+}
+#linkInput,
+#internalIdInput {
+  width: 85%;
+  height: 33px;
+  border: none;
+  outline: none;
+}
+.sideclone {
+  background: none;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  width: 31px;
+  height: 31px;
+  margin: 0px;
+  outline: none;
+}
+.sideclone:hover {
+  background-color: #216c98;
+  color: white;
+  transition: 0.5s ease;
+}
+.sideplane {
+  float: right;
+  color: #216c98;
+  font-weight: bold;
+  height: 35px;
+  width: 25px;
+  background: transparent;
+  border: none;
+  margin-top: -34px;
+  z-index: 2;
+  position: relative;
+}
+#Extsecond {
+  position: relative;
+  height: 59px;
+  width: 100%;
+  outline-color: #216c98;
+}
+#extsecondlabel {
+  color: #216c98;
+  font-size: 11px;
+  font-weight: bold;
+  position: relative;
+  top: -21px;
+  float: left;
+}
+#Extsecond ::placeholder {
+  font-style: italic;
+  padding-top: 15px;
+  font-size: 10px;
+  color: #ccc;
+}
+#bidExternalDiv {
+  display: flex;
+  gap: 5px;
+  margin-top: 6px;
+}
+#bidIteminput {
+  border: none;
+  outline: none;
+  width: 80%;
+  padding-left: 4px;
+}
+
+#bidIteminput::placeholder {
+  font-style: italic;
+}
+
+#pdfInternalDiv,
+#wordInternalDiv {
+  display: flex;
+}
+#pdfli,
+#noavexra,
+#generatePdflist li {
+  list-style: none;
+  text-align: start;
+  color: black;
+  font-size: 12px;
+  padding: 3px 0px;
+}
+
+#documentwriteInput {
+  width: 99%;
+  height: 68px;
+  padding-left: 2px;
+  font-size: 16px;
+}
+
+#documentwriteLabel {
+  position: relative;
+  bottom: 20px;
+  font-size: 13px;
+  color: #216c98;
+  padding-left: 5px;
+}
+#iconFontSize,
+#fontSize {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#topAccounts:hover,
+#topProjects:hover {
+  border-top: 2px solid #216c98;
+
+  border-bottom: 2px solid #216c98;
+}
+
+#seeAll,
+#projectsSeeAll {
+  border: none;
+
+  width: 100%;
+
+  padding: 10px;
+
+  background-color: white;
+}
+
+#topAccounts,
+#topProjects,
+#topOpportunity {
+  border: none;
+
+  width: 100%;
+
+  background-color: white;
+  text-align: left;
+  color: #216c98;
+  font-weight: 600;
+  height: 29px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4px;
+}
+#topDiv1,
+#topDiv2,
+#topDiv3,
+#topDiv4,
+#topDiv5 #topOppDiv1,
+#topOppDiv2,
+#topOppDiv3,
+#topOppDiv4,
+#topOppDiv5 {
+  display: flex;
+  padding: 3px 0px;
+}
+
+.label1,
+#label2,
+#label3,
+#label4,
+#label5 {
+  font-size: 13px;
+
+  width: 60%;
+}
+
+#input1,
+#input2,
+#input3,
+#input4,
+#input5 {
+  width: 40%;
+
+  padding-left: 20px;
+
+  border: none;
+
+  outline: none;
+
+  color: #216c98;
+}
+#label12 {
+  display: flex;
+  font-size: 13px;
+}
+#label13 {
+  display: flex;
+  font-size: 8px;
+}
+#topOppDiv1,
+#topOppDiv2,
+#topOppDiv3,
+#topOppDiv4,
+#topOppDiv5 {
+  display: flex;
+  width: 100%;
+}
+#subdiv1,
+#subdiv2,
+#subdiv3,
+#subdiv4,
+#subdiv5 {
+  width: 70%;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+#subDiv2 {
+  width: 30%;
+}
+#input6,
+#input7,
+#input8,
+#input9,
+#input10 {
+  border: none;
+  outline: none;
+  color: #216c98;
+}
+
+.sidePanelBox {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 18%;
+  height: 100%;
+  top: 70px;
+}
+
+.sidePanelLine {
+  height: 100%;
+  border-left: 2px solid #216c98;
+  width: 100%;
+}
+
+.SidePanelButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sideButton {
+  height: 60px;
+  padding: 3px;
+  background-color: #216c98;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  z-index: 50;
+  left: -17px;
+}
+
+.profile-icon_sidepanel {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #046088;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 37px;
+  top: -8px;
+  left: 2px;
+}
+.role_list {
+  list-style: none;
+  background-color: rgba(239, 239, 239, 1);
+  color: rgba(16, 16, 16, 1);
+  border-color: rgba(118, 118, 118, 1);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #notesbutton,
+  #extRefbutton,
+  #InternalIdbutton,
+  #linkButton,
+  #extsecondbutton,
+  #bidTeamButton,
+  #skillbutton,
+  #Rolebutton,
+  #Exchangebutton,
+  #bidTeamButton,
+  #pdfButton,
+  #wordGeneratebutton,
+  #documentexportbtn,
+  #Doctypebutton {
+    font-size: 7px;
+  }
+}

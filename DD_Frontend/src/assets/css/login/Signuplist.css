@@ -1,0 +1,160 @@
+.dropdown-icon-Signup {
+  position: absolute;
+  color: black;
+  font-size: 12px;
+  top: 40%;
+  right: 13%;
+  transform: translateY(60%);
+}
+
+.input-Signup {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.signupContainer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contentSignupdropdown {
+  z-index: 999;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  list-style: none;
+  width: 90%;
+  padding: 1px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.contentSignupdropdown::-webkit-scrollbar {
+  width: 5px; 
+}
+.contentSignupdropdown::-webkit-scrollbar-track {
+  background: #E2E8F0;
+  border-radius: 2px; 
+}
+.contentSignupdropdown::-webkit-scrollbar-thumb {
+  background: #444444;
+  border-radius: 2px; 
+  height: 50px;
+}
+
+/* .contentSignupdropdown::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+.contentSignupdropdown li:hover {
+  background-image: linear-gradient(to right,#715CF3, #5C99F3);
+  color: white;
+  padding: 6px;
+}
+
+.contentSignupdropdown li {
+  cursor: pointer;
+  padding: 6px;
+  font-size: 12px;
+  /* font-weight: bold; */
+}
+
+.no-results-signup {
+  cursor: pointer;
+  padding: 0px;
+  text-align: center;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.signupinputRules {
+  width: 100%;
+  height: 35px;
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+  border: 0.1px solid #ccc;
+  outline-color: #715CF3;
+  padding: 5px;
+}
+
+.Signupvertical {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  color: #2f2e2e;
+  opacity: 0.9;
+  top:-3px;
+}
+
+.selected-options-placeholder {
+  position: relative;
+  color: #919191;
+  opacity: 0.7;
+  text-align: left;
+  top: 30%;
+ 
+} 
+
+.signupinputRules::placeholder {
+  color: #919191;
+  opacity: 0.7;
+  padding: 4px;
+}
+
+.selected-options-container {
+  height: 59px;
+}
+
+.selected-option {
+  padding: 6px;
+  position: relative;
+  font-size: 12px;
+  padding-top: 3px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 2px;
+  margin: 2px;
+  box-sizing: border-box;
+}
+
+button.cancel-button,
+#canceliconSignup {
+  position: relative;
+  border-radius: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  font-size: 12px;
+  color: #216c98;
+  font-weight: bold;
+}
+
+.cancel-button:hover {
+  color: #216c98;
+}
+@media (min-width: 820px) and (min-height: 1180px){
+    .dropdown-icon-Signup {
+      font-size: 11px;
+      right: 12%;
+      top: 23px;
+                  }
+}
+@media (max-width: 768px) and (min-height: 1024px){
+  .dropdown-icon-Signup {
+    font-size: 12px;
+    right: 23px;
+    top: 18px;
+                }
+}
+@media (max-width: 480px){
+.dropdown-icon-Signup {
+  font-size: 10px;
+  right: 21px;
+  top: 23px;
+              }
+}

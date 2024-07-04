@@ -1,0 +1,123 @@
+/* 
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(1px);
+  z-index: 1000;
+}
+.popupsurvey {
+  position: fixed;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 50%;
+  height: 65%;
+  background-color: white;
+  border: 2px solid skyblue;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.close-iconsurvey {
+    position: relative;
+    float: right;
+    top: -3px;
+    right: 2%;
+    border: none;
+    background: none;
+    color: rgb(38, 152, 202);
+}
+.headersurveypop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+.surveysercag {
+  color: rgb(38, 152, 202);
+}
+#relaserchbutton {
+  position: relative;
+  color: #2698ca;
+  z-index: 1;
+  left: 18px;
+}
+.mySearchpopupsurvey {
+  position: relative;
+  height: 40px;
+  padding: 20px;
+  min-width: 90%;
+  outline-color: #216c98;
+  border: 1px solid #ccc;
+}
+.surveysercahtext,
+.overightbtn,.more-less {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#info {
+  font-size: 12px;
+  font-style: oblique;
+  display: flex;
+  justify-content: center;
+}
+div#surveyNameAndStatus {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.pnamesstatus {
+  color: #2698ca;
+  margin-top: 20px;
+}
+.liststtussurvey {
+  position: absolute;
+  z-index: 1;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  list-style: none;
+  width: 100%;
+  overflow: scroll;
+  height: 50%;
+  font-size: 11px;
+}
+.liststtussurvey li:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+.liststtussurvey li {
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.surveynyms {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+  height: 35vh;
+}
+
+
+#overwrite {
+  width: 100px;
+  height: 25px;
+  border-radius: 19px;
+  font-size: 11px;
+  color: #2698ca;
+  background: white;
+  border: 2px solid #2698ca;
+  font-weight: bold;
+}
+button.show-more,.show-less {
+  background: none;
+  width: 100%;
+  border: 1px solid #ccc;
+  height: 25px;
+} */

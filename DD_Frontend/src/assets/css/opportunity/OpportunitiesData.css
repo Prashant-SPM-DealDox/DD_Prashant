@@ -1,0 +1,389 @@
+.opportunitydata {
+  padding-top: 68px;
+  margin-left: 74px;
+  margin-right: 10px;
+}
+.plus-quotes {
+  display: flex;
+  justify-content: center;
+}
+.dataleft {
+  margin-top: 5px;
+  width: 50%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.containerD3,
+.containerD4 {
+  display: grid;
+  height: 59px;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.containerD5 {
+  display: grid;
+  height: 59px;
+  grid-template-columns: 2fr 1fr 1fr;
+  width: 100%;
+}
+
+#contD5 {
+  padding-left: 7px;
+  border: 0.1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 59px;
+  width: 100%;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 15px;
+  outline-color: #216c98;
+}
+.dataright {
+  margin-top: 5px;
+  width: 49.6%;
+  float: right;
+}
+
+.containerD6 {
+  display: grid;
+  height: 59px;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.containerD7 {
+  display: grid;
+  height: 59px;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.containerD8 {
+  display: grid;
+  height: 59px;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.containerD9 {
+  display: grid;
+  height: 59px;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.containerD10 {
+  display: grid;
+  height: 59px;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.dataright input[type="number"] {
+  font-size: 14px;
+}
+
+.dataright input::-webkit-outer-spin-button,
+.dataright input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.leftdetail {
+  width: 100%;
+  padding-left: 68px;
+  padding-top: 30px;
+}
+.bbtndetails {
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  height: 45px;
+  border: 1px solid gray;
+}
+
+.containerDleft {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 59px;
+}
+.containerDleft_data {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 59px;
+}
+.input_description {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.description_label {
+  top: -20px;
+}
+#tblStocksQuotes {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tblStocksQuotes th {
+  border: 1px solid rgb(168, 167, 167);
+  padding: 8px;
+  text-overflow: ellipsis;
+  padding-left: 5px;
+  text-align: center;
+  background-color: #f5f5f5;
+  color: black;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+#tblStocksQuotes td {
+  width: 20px;
+  color: black;
+  font-size: 15px;
+  /* padding: 5px; */
+  text-align: center;
+  border-bottom: 1px solid rgb(168, 167, 167);
+  height: 40px;
+}
+
+#contentD1,
+#contentD2 {
+  position: relative;
+  display: grid;
+  height: 59px;
+}
+
+.downloadandreload {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  padding-top: 30px;
+  padding-right: 24px;
+  width: 100%;
+}
+
+.downloadquotes,
+.quoteshead,
+.reload {
+  flex: 1;
+  text-align: center;
+}
+.downloadquotes,
+.reload,
+.ex_down,
+.re_load {
+  font-size: 8px;
+  font-weight: bold;
+  color: #216c98;
+}
+#refreshid,
+#excelid {
+  font-size: 15px;
+}
+.saveandcancel {
+  width: 100%;
+  margin: 10px 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+.opp_heading {
+  width: 144px;
+}
+
+.tableHeading {
+  width: 144px;
+}
+.tabledata {
+  width: 144px;
+  height: 53px;
+  margin-left: 30px;
+}
+.duplicate_message1 {
+  height: 40px;
+  width: 100%;
+  color: white;
+  background-color: rgb(225, 2, 2);
+  z-index: 9999;
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  align-self: center;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+.cancel_icon {
+  position: absolute;
+  right: 20px;
+}
+#mainpage {
+  display: flex;
+  height: 100vh;
+}
+
+.textareainput.inputdescription::placeholder {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tabledatalink,
+#tabledatalinks {
+  color: black;
+  font-family: sans-serif;
+}
+
+#tabledatalink:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#delete-highlight1 {
+  padding: 6px;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid rgb(228, 27, 27);
+  font-size: 9px;
+  background-color: rgb(228, 27, 27);
+  font-weight: 800;
+}
+
+#delete-highlight1:hover::after {
+  background: #333;
+  background: rgb(228, 27, 27);
+  border-radius: 5px;
+  color: #fff;
+  content: attr(data-gloss);
+  padding: 15px 15px;
+  position: absolute;
+  z-index: 98;
+  width: 160px;
+  font-size: 13px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 28px;
+  margin-left: -140px;
+}
+
+#delete-highlight1:hover:before {
+  border: solid;
+  border-color: rgb(228, 27, 27) transparent;
+  border-width: 0 8px 8px 8px;
+  content: "";
+  position: absolute;
+  z-index: 99;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.contextMenu {
+  background: white;
+  width: 10vw;
+  height: 5vh;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  font-size: 12px;
+  padding: 3px;
+}
+.deletequoteopp {
+  background: none;
+  border: none;
+  padding-right: 2px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.deletequoteopp:hover {
+  background: #e9f6ff;
+  color: black;
+}
+
+.quoteDeletePopUp {
+  gap: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 45%;
+  height: 33%;
+  transform: translate(-50%, -50%);
+  z-index: 9999; /* Ensure it's on top of other elements */
+  background-color: white; /* You may adjust the background color as needed */
+  padding: 2px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Add border for visibility */
+}
+.backgroundOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+.quoteDeletePop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+  gap: 50px;
+}
+.deletecancelquote {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.facloseicon {
+  position: relative;
+  float: right;
+  padding: 2px;
+  color: #216c98;
+}
+.quoteFlex {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #216c98;
+}
+.facloseicon {
+  position: absolute;
+  right: 6px;
+  top: 4px;
+}
+.pagination_oppo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
+.active_quotes {
+  padding: 5px 10px;
+  color: #216c98;
+  background-color: #dcdbdb;
+  border: 1px solid #a6a6a7;
+}
+.page-link {
+  padding: 5px 10px;
+  color: #216c98;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.page-link:hover {
+  z-index: 2;
+  color: #216c98;
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.page-link:focus {
+  z-index: 2;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}

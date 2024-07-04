@@ -1,0 +1,414 @@
+.mainSummerSub {
+    /* border: 1px solid #216c98;
+    background-color: #efefef;
+    transform: translate(-50%, -66%);
+    padding: 2px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    z-index: 1000;
+    position: fixed;
+    text-align: -webkit-center;
+    left: 52%;
+    overflow-y: scroll;
+    z-index: 1000; */
+  }
+  .mainsummary{
+    border: 1px solid #216c98;
+    background-color: #efefef;
+    transform: translate(-50%, -66%);
+    padding: 2px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    z-index: 1000;
+    position: fixed;
+    text-align: -webkit-center;
+    left: 52%;
+    overflow-y: scroll;
+    z-index: 1000;
+    width: 66vw;
+    height: 83vh;
+    top: 68%;
+  }
+  
+  .mainsummary h3 {
+    padding: 5px;
+    color: #216c98a7;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .mainsummary p {
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    position: relative;
+  }
+  
+
+  .grid-containerB #edititem {
+    position: relative;
+    height: 59px;
+  }
+  .grid-containerH #edititem {
+    position: relative;
+    height: 50px;
+  }
+  .grid-containerG #edititem {
+    position: relative;
+    height: 50px;
+  }
+  .mainsummary .grid-containerA {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: -9px;
+  }
+  .mainsummary .grid-containerA .grid-item1 button {
+    height: 80%;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+  }
+  .mainsummary .grid-containerA .griditem1 button {
+    height: 80%;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    background-color: white;
+  }
+  
+  .mainsummary .grid-containerA .grid-item1 button:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  .grid-containerB {
+    display: grid;
+    grid-template-columns: 3.04fr 2fr 0.81fr 0.82fr;
+    grid-template-rows: 3fr;
+    margin-bottom: 5px;
+    height: 59px;
+  }
+  
+  .servicesummary-input {
+    width: 100%;
+    height: 59px;
+    padding: 5px;
+    border-left: 2px solid #216c98;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+  }
+  
+  .mainsummary .editheading {
+    width: 100%;
+    height: 55px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+  }
+  .servicesummary {
+    position: relative;
+    bottom: 16px;
+    font-size: 11px;
+    padding: 2px 5px;
+    color: #216c98;
+    font-weight: bold;
+    float: left;
+    padding-left: 7px;
+  }
+  #grid-radioB {
+    border: 1px solid #ccc;
+    background-color: white;
+    height: 59px;
+    color: red;
+  }
+  #serviceradioB {
+    width: 25%;
+    height: 30%;
+    margin-top: 11px;
+    display: flex;
+    position: relative;
+  }
+  #serviceradioB1 {
+    width: 25%;
+    height: 30%;
+    position: relative;
+    display: flex;
+    top: 30%;
+  }
+  .servicesummary1 {
+    position: relative;
+    top: 27%;
+    right: -2%;
+    font-size: 11px;
+    padding: 2px 5px;
+    color: #216c98;
+    font-weight: bold;
+  }
+  .servicesummarycheck {
+    position: relative;
+    bottom: -2px;
+    font-size: 11px;
+    padding: 2px 5px;
+    color: #216c98;
+    font-weight: bold;
+    /* float: left; */
+  }
+  #grid-radioB #servicesummaryl {
+    position: relative;
+    top: 3%;
+    font-size: 11px;
+    padding: 5px 3px;
+    color: #216c98;
+    font-weight: bold;
+  }
+  /* C  */
+  .grid-containerC {
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr 1.2fr 1.2fr 1.2fr 0.7fr;
+    margin-bottom: 10px;
+    height: 59px;
+  }
+  /* D */
+  .grid-containerD {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+    height: 59px;
+    margin-bottom: 10px;
+  }
+  .grid-containerE {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+    height: 59px;
+    margin-bottom: -5px;
+  }
+  .grid-containerF {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+    margin-top: 10px;
+    height: 30px;
+  }
+  .mainsummary .grid-containerF .grid-item1 button {
+    height: 80%;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 12px;
+  }
+  .mainsummary .grid-containerF .griditem1 button {
+    height: 80%;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    background-color: white;
+  }
+  .mainsummary .grid-containerF .grid-item1 button:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .grid-containerG {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    height: 59px;
+  }
+  .grid-containerH {
+    display: grid;
+    grid-template-columns: 3fr 1.5fr 1.5FR;
+    margin-bottom: 5px;
+    height: 59px;
+  }
+  .grid-containerI {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+    margin-bottom: 5px;
+    height: 50px;
+  }
+  
+  .grid-containerI #serviceradioB {
+    width: 35%;
+    height: 30%;
+    margin-top: 5px;
+    display: flex;
+  }
+  .grid-containerI #grid-radioB {
+    height: 50px;
+  }
+  .grid-containerI .servicesummaryll1 {
+    position: relative;
+    top: 5px;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+  }
+  .grid-containerI .servicesummaryll2,
+  .servicesummaryll3,
+  .servicesummaryll4 {
+    position: relative;
+    top: 5px;
+    bottom: 2px;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+  }
+  .grid-containerJ {
+    display: grid;
+    grid-template-columns: 6fr;
+    grid-template-rows: 3fr;
+    margin-bottom: 5px;
+    height: 59px;
+    width: 100%;
+  }
+  .grid-containerJ .grid-itemB {
+    height: 50px;
+  }
+  .grid-containerK {
+    height: 45px;
+    background-color: white;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+  }
+  .grid-containerK button {
+    margin: auto;
+    position: relative;
+    height: 25px;
+    width: 60px;
+    font-size: 10px;
+    border-radius: 11px;
+    border: 1px solid red;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .mainsummary #newclosesumm {
+    position: fixed;
+    font-size: 20px;
+    float: right;
+    cursor: pointer;
+    z-index: 2;
+    color: #216c98;
+    top: 4px;
+    right: 2px;
+  }
+  
+  #pencilsummaryicon {
+    position: relative;
+    top: -40px;
+    left: 40%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #ccc;
+    font-size: 12px;
+  }
+  .griditemB:hover #pencilsummaryicon {
+    opacity: 1;
+  }
+  #pencilsummaryicon1 {
+    position: relative;
+    top: -40px;
+    left: -1%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #ccc;
+    font-size: 12px;
+  }
+  .grid-itemB:hover #pencilsummaryicon1 {
+    opacity: 1;
+  }
+  
+  #pencilsummaryicon2 {
+    position: relative;
+    top: -40px;
+    left: 20%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #ccc;
+    font-size: 12px;
+  }
+  .grid-itemB:hover #pencilsummaryicon2 {
+    opacity: 1;
+  }
+  #pencilsummaryicon3 {
+    position: relative;
+    top: -40px;
+    left: 20%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #ccc;
+    font-size: 12px;
+  }
+  .grid-itemB:hover #pencilsummaryicon3 {
+    opacity: 1;
+  }
+  #pencilsummaryicon4 {
+    position: relative;
+    top: -40px;
+    left: 20%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #ccc;
+    font-size: 12px;
+  }
+  .grid-itemB:hover #pencilsummaryicon4 {
+    opacity: 1;
+  }
+  #pencilsummaryicon5 {
+    position: relative;
+    top: -40px;
+    left: -1%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #ccc;
+    font-size: 12px;
+  }
+  .grid-itemB:hover #pencilsummaryicon5 {
+    opacity: 1;
+  }
+  #pencilsummaryicon6 {
+    position: relative;
+    top: -40px;
+    left: 45%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #ccc;
+    font-size: 12px;
+  }
+  .grid-itemB:hover #pencilsummaryicon6 {
+    opacity: 1;
+  }
+  
+  .summarypopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+  }
+  .subsummary {
+    position: relative;
+    margin-left: 4px;
+    margin-right: 1px;
+  }
+  
+  #gridInput {
+    border-left: 2px solid #216c98;
+  }
+  .labelChange {
+    position: relative;
+    bottom: 15px;
+    font-size: 11px;
+    padding-left: 7px;
+    color: #216c98;
+    font-weight: bold;
+    float: left;
+  }
+  .griditemB,.grid-itemB {
+    height: 59px;
+    position: relative;
+  }

@@ -1,0 +1,228 @@
+.holePage {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twoFactor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #715cf3;
+  gap: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .twoFactor {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.content {
+  padding-top: 20px;
+  color: darkgrey;
+}
+
+.step1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.statement {
+  padding-top: 6px;
+  color: darkgrey;
+}
+
+span.Googleauntenticator,
+#qr_instruction {
+  display: flex;
+  justify-content: center;
+}
+
+#qr_code {
+  border: 0.1px solid #ccc;
+  padding: 6px;
+  outline-color: #715cf3;
+  position: relative;
+  text-align: center;
+  border-radius: 8px;
+  width: 100%;
+  height: 40px;
+}
+
+.step2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  gap: 9px;
+}
+
+.btnFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  font-size: 24px;
+}
+
+.cancelButton {
+  padding: 8px;
+  border: 0.1px solid #ccc;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.cancelButton:active {
+  transform: scale(0.9);
+  color: white;
+}
+.cancelButton {
+  background-color: dimgrey;
+}
+
+.qrauth {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  border-radius: 4px;
+  height: 82%;
+}
+
+.qrCodeUrl {
+  display: flex;
+  justify-content: center;
+  height: 35%;
+}
+
+/* verificationpage css */
+.entirePage {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepVerification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-content {
+  padding-top: 30px;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.autheticatorcode {
+  padding: 6px 0px;
+  color: darkgrey;
+}
+
+#authCode {
+  border: 0.1px solid #ccc;
+  padding: 10px;
+  border-radius: 7px;
+  outline-color: #715cf3;
+  padding-top: 11px;
+}
+
+.valid_otp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 36px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 17px;
+  color: white;
+  background-color: #715cf3;
+  border: 0.1px solid #ccc;
+  cursor: pointer;
+}
+.valid_otp:active {
+  transform: scale(0.9);
+  color: white;
+  background-color: #715cf3;
+}
+.valid_otp_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  background-color: #715cf3;
+  border: 0.1px solid #ccc;
+  cursor: pointer;
+}
+
+.labels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  color: #715cf3;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.Verification {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 4px;
+  height: 66%;
+}
+
+.stepVerify {
+  color: #715cf3;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .Verification {
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Verification {
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .Verification {
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Verification {
+    height: auto;
+  }
+}

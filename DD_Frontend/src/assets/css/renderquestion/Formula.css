@@ -1,0 +1,54 @@
+.formulasection {
+  display: grid;
+  grid-template-columns: 3.375fr 3.375fr 3.375fr 3.375fr;
+  color: #216c98;
+  position: relative;
+  bottom: 2px;
+  height: 59px;
+}
+.Flex_Label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+label.formula {
+  top: -15px;
+  padding-left: 5px;
+  position: relative;
+  z-index: 1;
+}
+.section-div {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 800;
+  position: relative;
+  top: 6px;
+}
+div#functionsection {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1px solid #ccc;
+}
+#Formula_Errormsg {
+  color: red;
+  position: relative;
+  padding-left: 6px;
+  font-size: 9px;
+  bottom: 15.4px;
+  font-weight: 800;
+}
+.select-section {
+  color: #216c98;
+  width: 100%;
+  height: 59px;
+  outline-color: #216c98;
+  border: 1px solid #ccc;
+  padding-left: 5px;
+  position: relative;
+  top: -2px;
+}

@@ -1,0 +1,33 @@
+/* RegisterSuccess.css */
+
+#registrationmsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #succmsg {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #succmsg h2 {
+    color: #333;
+    margin: 10px 0;
+  }
+
+  #otpInput{
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+  }
+  
+  /* Add more styles as needed */
+  

@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#config-head {
+  padding-top: 82px;
+  height: 120px;
+  width: 101%;
+  background: rgb(231, 231, 231);
+  text-align: center;
+  font-weight: bold;
+  color: rgb(9, 9, 9);
+  border: 1px solid rgb(83, 83, 83);
+  border-radius: 1px;
+}
+.config-number {
+  color: #045679;
+  font-weight: bold;
+}
+.config-name {
+  font-weight: bold;
+}
+
+#mainconfig {
+  margin-top: 67px;
+  margin-left: 72px;
+  margin-right: 4px;
+}
+.con-sec1 {
+  margin-top: 10px;
+}
+#subsection1 {
+  display: grid;
+  grid-template-columns: 0.7fr 8fr 4fr;
+  border: 1px solid #e6e4e4;
+  height: 35px;
+  width: 100%;
+}
+
+.subconfig-number {
+  margin-top: 7px;
+  text-align: center;
+  color: #045679;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.subconfig-name {
+  padding-top: 8px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #012433;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  height: 100%;
+  position: relative;
+}
+
+/* ----------------------------------- */
+.input-select-wrapper {
+  position: relative;
+}
+
+.css-b62m3t-container {
+  outline: #0c0c0c;
+}
+
+#password-input {
+  padding-right: 30px;
+  width: 100%;
+  height: 32px;
+  border: none;
+  outline-color: #045679; 
+  border-radius: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.toggle-password {
+  position: absolute; 
+  top: 50%; 
+  right: 10px;
+  transform: translateY(-50%); 
+  border: none; 
+  background: transparent; 
+  cursor: pointer;
+}
+
+.toggle-password:focus {
+  outline: none;
+}
+
+.toggle-password i {
+  font-size: 16px; 
+}
+
+#psseye {
+  color: #045679;
+  padding-top: 4px;
+  font-size: 10px;
+}
+
+.toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px; 
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.toggle-icon:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 4px 0 4px;
+  border-color: #888 transparent transparent transparent;
+}
+
+
+#save-configuration {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.dropdown-icon-contentAction.iconconfig {
+  position: relative;
+  top: -25px;
+}
+input.content7inputRules.config-dropdown {
+  height: 35px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+input.textinput.textinputcustomConfig {
+  height: 35px;
+}

@@ -1,0 +1,34 @@
+#con-sec-main,#unusedFunctionality{
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 13fr;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
+    border: 1px solid #ccc;
+    height: 35px;
+    width: 100%;   
+  }
+  #unusedFunctionality{
+    background-color: rgb(255 255 255);
+  }
+  #con-sec-main:hover {
+    background-color: rgb(231, 231, 231);
+  }
+  
+  #dropdown-icon-con-sec-main{
+    font-size: 14px;
+    color: #216c98;
+    cursor: pointer;
+  }
+  #greyoutSectionname{
+    color: #4444;
+  }
+  #greySectionNumber{
+    color: #d6eaf6;
+  }
+#toggleIconId{
+  font-size: 14px;
+  color: #d6eaf6;
+  cursor: pointer;
+}
+  

@@ -1,0 +1,30 @@
+.header_bar_div {
+  display: flex;
+  height: 44px;
+  width: 100%;
+  background: rgb(231, 231, 231);
+  font-weight: bold;
+  justify-content: center;
+  border: 1px solid #eeeeee;
+  border-radius: 1px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  gap: 14px;
+}
+.header-children-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-children-container > * {
+  margin: 0 10px;
+}
+
+/* categaries css */
+.categaries1grid,
+.categariesgrid2 {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
+}

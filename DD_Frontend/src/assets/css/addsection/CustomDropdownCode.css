@@ -1,0 +1,38 @@
+/* .custdropdown {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  z-index: 5;
+}
+ 
+.ymdropdowncode li {
+  list-style: none;
+  text-align: start;
+  color: black;
+  font-size: 14px;
+  padding: 1px 5px;
+}
+ 
+.custdropdown ul li:hover {
+  background-color: #216c98;
+  color: white;
+}
+.customdropdiv-input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.inputflex{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(201, 196, 196);
+  z-index: 2;
+  position: relative;
+}
+  */

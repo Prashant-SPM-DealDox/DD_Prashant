@@ -1,0 +1,460 @@
+/* body {
+  font-family: Ari, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.rowasset {
+  display: flex;
+  padding-left: 66px;
+  padding-top: 64px;
+  background-color: white;
+}
+
+.rightasset {
+  background-color: white;
+  z-index: 1;
+  padding-right: 4px;
+  padding-left: 4px;
+  top: 5px;
+  position: relative;
+  width: 100%;
+}
+.assetlistingheader {
+  background-color: white;
+  z-index: 1;
+  position: relative;
+  width: 100%;
+}
+#hideasset {
+  margin: 14px;
+  border: 1px solid #ccc;
+  background: white;
+  top: 20px;
+  position: relative;
+}
+
+.grid-asset {
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr 1.5fr 0.6fr;
+  margin: 7px;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.grid-asset input {
+  border: none;
+  outline: none;
+}
+.grid-asset .codeinput {
+  border-bottom: 0.1px solid #0f6b93;
+}
+
+.grid-asset .tittleinput {
+  border-bottom: 1px solid rgb(240, 75, 75);
+}
+.tittleasset {
+  grid-column: 1/2;
+  width: 100%;
+}
+.codeasset {
+  grid-column: 2/3;
+}
+
+.assetimage {
+  width: 50px;
+  height: 50px;
+  grid-column: 4/5;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.tittleasset,
+.codeasset,
+.catalogasset,
+.assetimage {
+  padding-left: 3px;
+}
+#assetlist {
+  position: relative;
+  top: 9px;
+  list-style: none;
+  padding: 5px;
+  width: 100%;
+  height: 60px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+
+  z-index: 3;
+}
+
+.asset-icon {
+  color: #216c98;
+
+  position: relative;
+  float: right;
+  right: 40px;
+}
+
+#assetlistitems {
+  padding: 4px;
+  font-size: 12px;
+  color: black;
+}
+
+#assetlist li:hover {
+  background-color: #216c98;
+  color: white;
+}
+
+#assetinput {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  padding-left: 13px;
+}
+.assetbuttons {
+  position: relative;
+  margin: 14px;
+  height: 20%;
+  top: 4%;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.redButton {
+  border: 2px solid red;
+  background: none;
+  color: red;
+  border-radius: 20px;
+  padding: 4px;
+  position: relative;
+}
+
+.blueButton {
+  border: 1px solid #216c98;
+  background: none;
+
+  color: #216c98;
+  border-radius: 20px;
+  padding: 4px;
+  position: relative;
+}
+
+.ruleinputasset {
+  border: none;
+  outline: none;
+  border-bottom: 0.1px solid #ccc;
+  padding-bottom: 2px;
+  padding-left: 2px;
+}
+.keywordinputasset {
+  border: none;
+  outline: none;
+  border-bottom: 0.1px solid #ccc;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  margin-top: 15px;
+  width: 100%;
+}
+.assetinformation {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.assetlastrowropdown {
+  margin: 7px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+}
+.ruleinputasset input[type="number"] {
+  position: relative;
+  width: 70px;
+  margin-top: 10px;
+}
+
+#textdescc {
+  position: relative;
+  margin: 7px;
+  z-index: 1;
+}
+
+.ruleorderdiv {
+  margin: 7px;
+  position: relative;
+}
+
+.hideassetMAinDIv {
+  background: #f5f5f5;
+  height: 600px;
+}
+
+.addimageasset {
+  display: grid;
+  position: relative;
+  color: #216c98;
+  width: 60px;
+  height: 50px;
+  font-size: 9px;
+  justify-content: center;
+  align-items: center;
+  border: 0.1px solid #ccc;
+}
+
+.displayassetImage {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-left: 0;
+}
+
+#lastlist {
+  position: relative;
+  top: 1px;
+  list-style: none;
+  padding: 10px;
+  width: 20%;
+  height: 65px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  font-size: 12px;
+  z-index: 1;
+  margin-left: 5px;
+}
+
+#lastlistitems {
+  padding: 4px;
+  font-size: 12px;
+}
+
+#lastlist li:hover {
+  background-color: #216c98;
+  color: white;
+}
+
+.last-icon {
+  color: #216c98;
+  position: relative;
+  float: right;
+  right: 729px;
+  top: 26px;
+}
+
+#checkboxpoa {
+  position: relative;
+}
+
+#checkboxro {
+  position: relative;
+
+  margin-left: 10px;
+}
+
+#checkboxrolabel {
+  font-size: 10px;
+
+  position: relative;
+
+  color: #216c98;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa.fa-globe {
+  position: fixed;
+  top: 37px;
+  float: right;
+  z-index: 3;
+  right: 20px;
+  cursor: pointer;
+  height: 26px;
+  width: 30px;
+  padding-top: 3px;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+.exchrates,
+.exterRef,
+.docTy,
+.docexpnmae,
+.genwordoc,
+.genPdf,
+.newalldiv {
+  width: 100%;
+
+  padding-top: 0%;
+
+  margin-left: 0%;
+
+  text-decoration: none;
+
+  color: black;
+
+  border: 1px solid rgb(215, 228, 224);
+
+  flex: 1;
+}
+
+.exchrates a,
+.exterRef a,
+.docTy a,
+.docexpnmae a,
+.genwordoc a,
+.genPdf a,
+.newalldiv a .dropdownbtnexterref,
+.dropbtER,
+.dropdownbtndocty,
+.dropdownbtndocexpname,
+.dropdownbgenwordoc,
+.dropdownbtngenpdf,
+.dropdall {
+  padding: 0px 8px 6px 23px;
+  margin-top: 4px;
+  text-decoration: none;
+  font-weight: 750;
+  font-size: 11px;
+  color: #216c98;
+  display: block;
+  border: 1px #216c98;
+  background: white;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  height: 50px;
+  overflow: hidden;
+}
+.addasset {
+  width: 100%;
+  height: 47px;
+}
+
+.tox-statusbar__branding {
+  display: none;
+}
+
+.assetbuttonsubdiv {
+  display: flex;
+  justify-content: center;
+  top: 30%;
+  position: relative;
+}
+
+#customCheckbox {
+  border-radius: 4px;
+  background: #ff0000;
+  width: 100px;
+  z-index: -1;
+}
+.checkboxdivgrid {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  margin: 7px;
+  height: 60px;
+}
+.checkboxdiv {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  padding-top: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.surveyoptionvisiblediv {
+  margin-top: 28px;
+  margin-left: 40%;
+  font-size: 15px;
+}
+.customCheckboxLabel {
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  margin-left: 39%;
+  margin-bottom: 1%;
+  margin-right: 37%;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+input[type="checkbox"]:checked + .customCheckboxLabel {
+  color: white;
+  font-size: 15px;
+  border: none;
+  background-color: #216c98;
+}
+
+.customCheckboxLabel::before {
+  content: "\2713";
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+.labelcustomcheckbox {
+  color: #216c98;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 6%;
+  padding-top: 4px;
+}
+.facareticon {
+  font-size: 13px;
+  color: #216c98;
+  position: relative;
+  left: 10px;
+}
+#astmsg {
+  position: relative;
+  left: 315px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: #ccc;
+  font-weight: bold;
+  cursor: pointer;
+}
+.pcrgridassetDiv {
+  margin-top: 4%;
+}
+.default_asset_div {
+  display: flex;
+  font-size: 15px;
+  float: right;
+  gap: 8px;
+}
+#stickynote_asset {
+  color: #ccc;
+}
+.addsection_div {
+  margin-top: 4%;
+} */

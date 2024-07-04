@@ -1,0 +1,153 @@
+#faangletemplateleft {
+  position: relative;
+  left: 21px;
+  top: 8px;
+  color: black;
+  font-size: 14px;
+}
+.buttontemp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quotempid {
+  margin: 1.5%;
+}
+.exceldownload {
+  opacity: 0.2;
+  pointer-events: none;
+  filter: grayscale(100%);
+}
+.rowtemplate {
+  display: flex;
+  background-color: white;
+  padding-left: 66px;
+  padding-top: 65px;
+}
+
+#plusiconTempaltes {
+  padding: 15px;
+  margin-top: 35%;
+  margin-left: 70px;
+  position: fixed;
+  color: #0f6b93;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.righttemplate {
+  position: relative;
+  background-color: white;
+  padding-right: 4px;
+  padding-left: 4px;
+  top: 5px;
+  width: 80%;
+  border-left: 1px solid #ccc;
+}
+#hidetempluicon {
+  width: 20%;
+  background-color: white;
+  height: 100%;
+  max-height: 470px;
+  position: sticky;
+  top: 70px;
+}
+.tempbttn {
+  width: 44px;
+  height: 18px;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  border: 1px solid gray;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+div#contentsum {
+  display: grid;
+  width: 20%;
+  margin: 1.1%;
+  position: relative;
+  top: -40px;
+}
+#faangletemplateleft {
+  position: relative;
+  left: 21px;
+  top: 8px;
+  color: white;
+  font-size: 14px;
+}
+#newtwmplabel {
+  color: white;
+  position: relative;
+  left: 30px;
+  top: 9px;
+  font-size: 13px;
+}
+.tempmaindiv {
+  background-color: #0f6b93;
+  height: 35px;
+  width: 219px;
+  font-size: 15px;
+  position: relative;
+  left: 7px;
+  top: 6px;
+  margin-right: 15px;
+}
+#myMenuwriteblank li a:hover {
+  background-color: #0f6b93;
+  color: white;
+  padding-left: 30px;
+}
+#myMenuwriteblank {
+  list-style-type: none;
+  padding: 10px 9px;
+  width: 100%;
+}
+
+#myMenuwriteblank li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 15px;
+  padding: 8px 8px 8px 38px;
+}
+.gridComp {
+  position: relative;
+  top: -8px;
+  margin-left: 22vw;
+  /* top: 10%; */
+  z-index: 1;
+  margin-top: 2%;
+}
+.temp_froala {
+  display: flex;
+  gap: 10px;
+}
+.delete_update_template {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+.exceldownload {
+  display: grid;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  position: absolute;
+  left: 0px;
+}
+#exceltemplatelabel {
+  font-size: 10px;
+}
+.excelicon {
+  display: flex;
+  justify-content: center;
+}
+.summaryinput {
+  height: 40px;
+}
+.label_summary {
+  top: 20px;
+}

@@ -1,0 +1,200 @@
+.addinf {
+    margin-top: 30px;
+  }
+  .custom-inputcustomfiled {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 60px;
+  }
+  .content7inputRules.dropcustom {
+    border: none;
+    outline: none;
+    height: 1px;
+    width: 100%;
+  }
+  .inputcustomfield {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 15px;
+    color: #216c98;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 6px;
+    position: relative;
+    top: -20px;
+  }
+  .inputcustomfield2 {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 15px;
+    color: #216c98;
+    font-weight: 800;
+    font-size: 10px;
+    padding: 6px;
+    text-transform: uppercase;
+  }
+  .inputcustomfield::placeholder,
+  .inputcustomfield2::placeholder {
+    font-style: italic;
+    color: #ccc;
+  }
+  #plusbtn {
+    background: none;
+    border: none;
+    position: relative;
+    color: #216c98;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  #checkbox1,
+  #checkbox2,
+  #checkbox3 {
+    font-size: 10px;
+    position: relative;
+    color: #216c98;
+  }
+  ul.ul_addinfo {
+    position: relative;
+    z-index: 2;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 100%;
+    list-style: none;
+    padding: 1px;
+    font-size: 12px;
+  }
+  .ul_addinfo li:hover {
+    background-color: #0f6b93;
+    color: white;
+    padding: 6px;
+  }
+  .ul_addinfo li {
+    cursor: pointer;
+    padding: 6px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  .input_addinfo {
+    border: none;
+    height: 25px;
+    outline: none;
+    padding: 4px;
+  }
+  .input_addinfo2 {
+    border: none;
+    height: 25px;
+    outline: none;
+    padding: 4px;
+    position: relative;
+    top: 45%;
+  }
+  .movepreve:hover,
+  .movenext:hover {
+    color: #216c98;
+    opacity: 1;
+  }
+  .movepreve,
+  .movenext {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    position: relative;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 6px;
+    color: #216c98;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .input-row {
+    display: flex;
+    align-items: center;
+  }
+  .input-row2 {
+    align-items: center;
+    height: 40px;
+  }
+  #define,
+  #fapenai,
+  #fagearai,
+  #data {
+    font-size: 12px;
+    color: #216c98;
+    font-weight: bold;
+    position: relative;
+    /* right: 65px; */
+  }
+  .input_addinfo {
+    flex: 1;
+  }
+  
+  .dele {
+    margin-left: 10px;
+  }
+  
+  .inputcustomfield:hover {
+    border-bottom: 1px solid #045679;
+  }
+  .right-side-content,
+  .right-side-content2 {
+    position: absolute;
+    right: 0px;
+    margin-top: 16px;
+  }
+  /* #additionalbtn:active{
+    transform: scale(0.99);
+    color: rgb(20, 19, 19);
+  } */
+  .gear-icon,
+  .pencil-icon {
+    margin-left: 10px;
+  }
+  div#grid9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    height: 25px;
+  }
+  label#NCFDlabel {
+    font-size: 12px;
+  }
+  div#containeraddinfo {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+  }
+  div#plusiconaddinfo {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    height: 59px;
+    width: 100%;
+  }
+  
+  .checkbox_div {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 25px;
+    gap: 1%;
+  }
+  
+  #togglecategaries {
+    cursor: pointer;
+  }
+  .spanisOpen {
+    color: #216c98;
+    color: #216c98;
+    cursor: pointer;
+  }
+  .input_addinfo2_checkmark {
+    width: 100%;
+    margin-top: 23px;
+  }

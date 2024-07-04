@@ -1,0 +1,195 @@
+.calendercsscomp {
+  padding-left: 6px;
+  border: 0.1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 59px;
+  width: 100%;
+  font-size: 12px;
+  outline-color: #216c98;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+ 
+.textinput {
+  padding-left: 6px;
+  border: 0.1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 59px;
+  width: 100%;
+  font-size: 12px;
+  outline-color: #216c98;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.textlabel,
+.labelcalender {
+  position: relative;
+  color: #216c98;
+  font-weight: 800;
+  top: -17px;
+  font-size: 10px;
+  padding-left: 6px;
+  float: left;
+  display: block;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+ 
+.textinput::placeholder,
+.calendercsscomp::placeholder,
+#description-multiText::placeholder {
+  font-size: 14px;
+  color: #ccc;
+  font-style: italic;
+}
+.custom-checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 4px;
+}
+ 
+.custom-checkbox input {
+  position: relative;
+  opacity: 0;
+  cursor: pointer;
+  width: 0;
+  height: 0;
+}
+ 
+.checkmarkbox {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+ 
+.custom-checkbox input:checked + .checkmarkbox {
+  background-color: #216c98;
+  background-color: #216c98;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.custom-checkbox input:checked + .checkmarkbox::before {
+  content: "";
+  position: relative;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+ 
+.checkboxlabel {
+  position: relative;
+  color: #216c98;
+  font-weight: bold;
+  font-size: 10px;
+  font-weight: 800;
+}
+#description-multiText{
+border: 0.1px solid rgb(218, 217, 217);
+width: 100%;
+outline-color: #216c98;
+position: relative;
+height: auto;
+
+
+}
+.description-content{
+  bottom: -4px;
+}
+.description-account{
+  margin-bottom: -8px;
+}
+
+#label_textarea{
+  position: absolute;
+  color: #216c98;
+  font-weight: 800;
+  bottom: 2.5px;
+  font-size: 10px;
+  margin-left: 5px;
+  float: left;
+  display: block;
+  width: 98%;
+  background-color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+ 
+#greyoutLabelId {
+  position: relative;
+  color: #ccc;
+  font-weight: 800;
+  top: -17px;
+  font-size: 10px;
+  padding-left: 6px;
+  float: left;
+  display: block;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#greyoutcheckboxLabelId{
+  position: relative;
+  color: #ccc;
+  font-weight: bold;
+  font-size: 10px;
+  font-weight: 800;
+}
+#greyoutInputId{
+  padding-left: 6px;
+  border: 0.1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 59px;
+  width: 100%;
+  font-size: 12px;
+  outline: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #ccc;
+}
+#greyoutInputId::placeholder {
+  font-size: 14px;
+  color: #ccc;
+  font-style: italic;
+}
+@media (max-width: 1024px) and (max-height: 600px) {
+  .textlabel,
+  .numberlabel,
+  .emailerrorinputlabel,
+  .labelcalender,
+  .textarealabel,
+  .emaillabel {
+    padding-left: 4px;
+  }
+}
+ 
+@media (width: 768px) and (max-height: 1024px),
+  (width: 820px) and (max-height: 1180px) {
+  .textlabel,
+  .numberlabel,
+  .emailerrorinputlabel,
+  .labelcalender,
+  .textarealabel,
+  .emaillabel {
+    top: -14px;
+    font-size: 10px;
+    padding-left: 6px;
+  }
+}
+ 

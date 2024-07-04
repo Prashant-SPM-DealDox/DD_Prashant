@@ -1,0 +1,120 @@
+.Companydiv {
+  background-color: white;
+  margin-left: 70px;
+  padding-top: 70px;
+  padding-right: 4px;
+}
+.right_company {
+  background-color: white;
+  position: relative;
+  width: 100%;
+}
+.bmc_grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 100%;
+  height: 59px;
+  position: relative;
+}
+.bmc_user {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 100%;
+  position: relative;
+  height: 59px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+.bmc_admin {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  position: relative;
+  height: 59px;
+}
+.user_admin_0 {
+  width: 100%;
+  height: 59px;
+}
+.user_admin_1 {
+  width: 100%;
+  height: 59px;
+}
+.user_admin2 {
+  width: 100%;
+  height: 59px;
+}
+.user_admin_3 {
+  width: 100%;
+  height: 59px;
+}
+.user_admin_4 {
+  width: 100%;
+  height: 59px;
+}
+
+.admin_add {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  position: relative;
+  height: 59px;
+}
+.user_admin_4 {
+  width: 100%;
+  height: 59px;
+}
+.user_admin_5 {
+  width: 100%;
+  height: 59px;
+}
+.user_admin_6 {
+  width: 100%;
+  height: 59px;
+}
+.user_admin_7 {
+  width: 100%;
+  height: 59px;
+}
+.update_button {
+  display: flex;
+  justify-content: center;
+}
+.company_update_button {
+  height: 30px;
+  width: 85px;
+  margin-top: 3%;
+  padding: 6px;
+  color: #267c98;
+  border-radius: 20px;
+  border: 2px solid #267c98;
+  font-size: 10px;
+  background-color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+.company_update_button:active {
+  transform: scale(0.9);
+  color: white;
+  background-color: #267c98;
+}
+.company_update_button:hover {
+  color: white;
+  background-color: #267c98;
+}
+ 
+.user_admin_0_label,
+.user_admin_1_label {
+  text-wrap: nowrap;
+}
+.uploadlogolabel {
+  font-size: 12px;
+  position: relative;
+  top: 10px;
+
+}

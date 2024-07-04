@@ -1,0 +1,259 @@
+.rowpeople {
+  display: flex;
+  padding-left: 66px;
+  padding-top: 64px;
+  background-color: white;
+}
+.icon_name {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 5px;
+}
+div#peoplemain,
+.peoplemain {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.profile-iconpeoplelist {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+.rightpeople {
+  background-color: white;
+  padding-right: 4px;
+  padding-left: 4px;
+  top: 5px;
+  position: relative;
+  width: 100%;
+  border-left: 1px solid #ccc;
+}
+ 
+.peopleprofile {
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: 10px;
+}
+ 
+.peopleprofile i {
+  display: flex;
+  font-size: 100px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(189, 189, 189);
+}
+ 
+.peopleprofile p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+ 
+.persondataleft p,
+.practicedataright p,
+.contactdataleft p,
+.costdataright p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  font-size: 14px;
+  font-weight: bold;
+}
+ 
+.containerPP1,
+.containerPP2,
+.containerPP3,
+.containerPP4,
+.containerPP5,
+.containerPP7,
+.containerPC1,
+.containerPC5,
+.containerPC4 {
+  display: grid;
+  height: 59px;
+  grid-template-columns: 1fr 1fr;
+}
+ 
+.containerPP6,
+.containerPP8,
+.containerPC2 {
+  display: grid;
+  height: 59px;
+  grid-template-columns: 1fr;
+}
+ 
+.containerPC3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 59px;
+}
+ 
+#contentPC7 {
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 59px;
+  width: 100%;
+}
+ 
+div#contentPP11 {
+  height: 59px;
+  display: grid;
+  width: 100%;
+}
+ 
+#contentPC2,
+input[type="number"]::-webkit-outer-spin-button,
+#contentPC2,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+ 
+.peopleaccess {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+label.hasaccess {
+  position: relative;
+  color: #216c98;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 700;
+  justify-content: center;
+  left: 9%;
+  top: 2px;
+}
+li#norextra {
+  text-align: center;
+}
+ 
+.buttons_delete_update,
+.buttons_save_cancel {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  margin: 3%;
+}
+ 
+.contactdataleft,
+.costdataright,
+.persondataleft,
+.practicedataright {
+  width: 50%;
+}
+.profile_icon_people {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: gray;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 50px;
+  padding-top: 22px;
+}
+/* .profile_icon_people:hover {
+ 
+} */
+#uniquepeople {
+  background-color: #ccc;
+  height: 59px;
+  width: 100%;
+}
+.ownerlabelpeople {
+  text-align: center;
+  top: -20px;
+  color: #216c98;
+  font-weight: 800;
+  font-size: 10px;
+  position: relative;
+  padding-left: 50px;
+}
+.extrainputpeople {
+  position: relative;
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 59px;
+  font-size: 12px;
+  outline-color: #216c98;
+  width: 100%;
+}
+.profile-iconpeople {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: -46px;
+  left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: lightgray;
+  padding: 16px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 9px;
+}
+ 
+.people_data {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.profile_picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  font-size: 9px;
+}
+.profile_picture:hover {
+  background-color: gray;
+}
+span.profileidbox {
+  display: flex;
+  justify-content: center;
+  text-wrap: nowrap;
+  font-weight: 700;
+  align-items: center;
+  color: black;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 50%;
+  text-transform: uppercase;
+  width: 28px;
+  height: 28px;
+  font-size: 9px;
+}
+/* phone */
+@media only screen and (min-width: 276px) and (max-width: 767px) {
+}
+/* tab */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+label.custom-checkbox.cusom_check_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 4px;
+  left: 8%;
+  position: relative;
+}
+ 

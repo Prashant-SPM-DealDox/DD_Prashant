@@ -1,0 +1,94 @@
+.registerlistItems{
+    position: absolute;
+    background-color: white;
+    width:100%;
+    z-index: 10;
+    border:0.1px solid #ccc;
+    top:100%;
+    margin: 1px 0px ;
+    border-radius: 3px;
+    height: 90px;
+    overflow: auto;
+
+}
+.no-result-ul{
+    position: absolute;
+    background-color: white;
+    width:100%;
+    z-index: 10;
+    border:0.1px solid #ccc;
+    top:100%;
+    margin: 1px 0px ;
+    border-radius: 3px;
+    height: 27px;
+    overflow: auto;
+
+}
+.indivisual-list-item{
+    font-size: 12px;
+    padding: 4px;
+
+}
+.indivisual-list-item:hover,.no-result:hover{
+    background-image: linear-gradient(to right, #715cf3, #5c99f3);
+    color: white;
+}
+.no-result {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+    padding: 5px;
+}
+.Employees-container,
+.Country-input{
+display: flex;
+flex-direction: column;
+height: 100%;
+width: 50%;
+}
+.Country-input{
+display: flex;
+flex-direction: column;
+height: 100%;
+width: 100%;
+}
+
+.input-div{
+    height: 50%;
+    position: relative;
+}
+
+.Employees-input,.Country-input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: 0.3px solid #e2e8f0;
+    padding-left: 3px;
+    outline-color: #5c99f3;
+  }
+  .Employees-input::placeholder
+  {
+    color: #444444;
+    opacity: 0.3;
+  }
+
+  .register-toggle{
+  position: absolute;
+  right: 7%;
+  top: 31%;
+  color:#444444;
+  font-size: 12px;
+  }
+@media only screen and (max-width: 767px) {
+    .Employees-container{  
+        width: 100%;
+    }
+    .Employees-input{
+        padding: 16px 3px; 
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 912px) {
+.Employees-container{
+    width: 100%;
+}
+}

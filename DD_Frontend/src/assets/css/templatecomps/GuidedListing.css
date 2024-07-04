@@ -1,0 +1,227 @@
+#headerTempaltesListing {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  background: rgb(231, 231, 231);
+  font-weight: bold;
+  color: rgb(9, 9, 9);
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  justify-content: space-between;
+}
+.centered-content1,
+.centered-content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-align {
+  margin-right: 10px;
+}
+.dropdownDoctype {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.pdfdowListing,
+.worddowListing {
+  margin-right: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pdfdowlabelListing {
+  position: relative;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 4px;
+  cursor: pointer;
+}
+.worddowlabelListing {
+  position: relative;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 4px;
+  cursor: pointer;
+}
+/* #iconpdf,
+#iconword {
+  color: #216c98;
+  font-size: 15px;
+} */
+.guidedlistiput {
+  border: 0.1px solid #ccc;
+  height: 34px;
+  outline-color: #216c98;
+  width: 100%;
+  padding: 6px;
+  margin-top: 6px;
+  border-radius: 6px;
+}
+.customdoctype {
+  display: grid;
+  height: 48px;
+}
+.newbtm {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  color: #216c98;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+  left: 5%;
+  top: 23px;
+  height: 30px;
+}
+.Class_1 {
+  background-color: #f00202;
+}
+.newbtm:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+.catalogbtb {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  color: #0f6b93;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  top: 23px;
+  float: left;
+  left: 7%;
+  height: 30px;
+}
+
+.catalogbtb:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+.approveguideGuided {
+  padding: 8px;
+  color: rgb(71, 196, 246);
+  border-radius: 24px;
+  background-color: rgb(247, 247, 247);
+  text-decoration: none;
+  border: 2px solid skyblue;
+  font-size: 10px;
+  font-weight: bold;
+  bottom: -7px;
+  position: relative;
+}
+.pdfdowListing.disabled,
+.pdfdowlabelListing.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.squareboxguide {
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.dele {
+  float: right;
+}
+.pdfdowWrapper {
+  position: relative;
+  margin-left: 10px;
+}
+#froala_delete {
+  /* display: flex;
+  flex-direction: row; */
+  border-top: 1px solid gray;
+  min-height: 40px;
+}
+.deincatanewGuide {
+  position: relative;
+  border: none;
+  color: #f00202;
+  font-size: 15px;
+  background: none;
+  width: 25px;
+  top: -17px;
+  float: right;
+  z-index: 1;
+}
+.deincatanewGuidehighlight {
+  background-color: #f00202;
+  color: white;
+}
+.newbtn {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  color: #216c98;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  left: 1%;
+}
+.newbtn:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+#contentqtemp textarea {
+  border: 1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 59px;
+  width: 100%;
+  font-size: 14px;
+  outline-color: #216c98;
+}
+#contentqtemp label {
+  color: #216c98;
+  /* top: -22px; */
+  left: 4px;
+  font-weight: 800;
+  font-size: 10px;
+  position: relative;
+}
+div#contentqtemp {
+  display: flex;
+  flex-direction: column;
+}
+#notdis {
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-weight: bold;
+  color: lightgray;
+  top: 146px;
+}
+.headerclass_template {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.fromcatalog_new {
+  display: flex;
+}
+.H4Label {
+  padding: 6px;
+  color: rgb(71, 196, 246);
+  border-radius: 24px;
+  background-color: rgb(247, 247, 247);
+  text-decoration: none;
+  border: 2px solid skyblue;
+  font-size: 10px;
+  font-weight: bold;
+}
+.H4Label:hover {
+  color: #216c98;
+}
+.froala-editor-read-only {
+  pointer-events: none;
+  user-select: none;
+}
+.fr-view table {
+  table-layout: fixed;
+}

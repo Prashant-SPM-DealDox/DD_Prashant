@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+.containerdivlogacc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.EntireForgotleftlog {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  font-family: "Open Sans";
+}
+p.stillloginlogp {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 28px;
+}
+.h5heading {
+  font-size: x-large;
+  font-family: "Ubuntu";
+  color: #444444;
+  line-height: 2;
+  letter-spacing: 0em;
+  text-align: left;
+}
+img#Forgoticonlog {
+  max-width: 420px;
+  padding: 18px;
+}
+.forgoticonleftlog {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.EntireForgotrightLogAccount {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  line-height: 3;
+}
+.spamplogaccount {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 47px;
+}
+.continuebuttonloginaccont {
+  font-family: "Open Sans";
+  font-size: 16px;
+  height: 39px;
+  width: 32%;
+  border: 1px solid #ccc;
+  background: none;
+  color: white;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #715cf3, #5c99f3);
+  font-weight: 600;
+}
+.continuebuttonloginaccont:active {
+  transform: scale(0.9);
+  color: white;
+  background-image: linear-gradient(to right, #715cf3, #5c99f3);
+}
+.stillloginlog {
+  line-height: 30px;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+.buttonreturnlogin {
+  position: relative;
+    line-height: 4;
+}
+.contentcantreceimai {
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Open Sans";
+}
+@media only screen and (min-width: 276px) and (max-width: 767px) {
+  .forgoticonleftlog {
+    display: none;
+  }
+  .EntireForgotrightLogAccount {
+    width: 100%;
+    padding: 8px;
+    line-height: 2;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .contentcantreceimai {
+    line-height: 30px;
+  }
+}

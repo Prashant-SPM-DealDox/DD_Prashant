@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#orgsrows {
+  display: flex;
+  background-color: white;
+  margin-left: 68px;
+  padding-top: 64px;
+}
+
+#orgform {
+  height: 59px;
+}
+
+#rightOrgshead {
+  width: 100%;
+  background-color: white;
+  /* z-index: 1; */
+  padding-right: 4px;
+  padding-left: 4px;
+  position: relative;
+}
+
+.profile_header {
+  background-color: white;
+  position: relative;
+  width: 100%;
+}
+.checkmarkboxinput {
+  left: 16px;
+}
+label.Checkboxlabel.checboxorglabel{
+  left: -3px;
+}
+#emsg {
+  color: red;
+  left: -313px;
+  font-size: 8px;
+  top: -22px;
+  position: relative;
+}
+
+#emsg1 {
+  color: red;
+  left: -176px;
+  font-size: 8px;
+  top: -22px;
+  position: relative;
+}
+
+#emsg2 {
+  color: red;
+  left: -177px;
+  font-size: 8px;
+  top: -22px;
+  position: relative;
+}
+
+.grid1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 0.5fr;
+  position: relative;
+}
+.org_main_div {
+  top: 11px;
+  position: relative;
+}
+#orgname {
+  height: 59px;
+}
+#activeorg {
+  height: 59px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+}
+#orgcode {
+  height: 59px;
+}
+#grid2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  height: 59px;
+}
+#grid3 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  height: 59px;
+}
+#grid4 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  height: 59px;
+}
+#grid5 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  height: 59px;
+}
+#grid6 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  height: 59px;
+}
+#grid10{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap:10px;
+}
+div#orgcode {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#externall {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#cola {
+  width: 100%;
+  position: relative;
+  height: 59px;
+}
+#pola {
+  height: 59px;
+  width: 100%;
+  position: relative;
+}
+#cost {
+  height: 59px;
+  border: 1px solid #ccc;
+  padding-left: 20px;
+}
+.check_box_label_dupe {
+  right: 18px;
+  position: relative;
+}
+/* #sidepanel{
+  margin-top: 64px;
+} */

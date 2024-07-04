@@ -1,0 +1,75 @@
+.content-replace-conatiner{
+    /* height: 59px; */
+    width: 100%;
+    position: relative;
+
+}
+
+.content-replace-input {
+    height: 100%;
+    border:none;
+    outline-color: #216c98;
+    width: 100%;
+    padding: 6px;
+    height: 57px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.content-replace-label{
+    position: absolute;
+    bottom: 3px;
+    color: #216c98;
+    font-weight: 800;
+    font-size: 11px;
+    padding-left: 5px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.second-row{
+    height: 59px;
+    margin-left: 47px;
+    width: 45%;
+    display: grid;
+    grid-template-columns: 5fr 0.7fr;
+}
+#second-trash-icon {
+    height: 72%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#replace_tag_container{
+    width: 100%;
+    border: none;
+    border-right: 0.1px solid #ccc;
+    outline-color: #056289;
+    height: 56px;
+    padding-left: 5px;
+}
+#replace_tag_label{
+    position: absolute;
+    bottom: 147px;
+    color: #216c98;
+    font-weight: 800;
+    font-size: 10px;
+    padding-left: 5px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    /* width: 100%; */
+    text-overflow: ellipsis;
+    text-align: left;
+}

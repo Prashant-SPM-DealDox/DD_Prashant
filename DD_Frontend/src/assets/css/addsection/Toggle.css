@@ -1,0 +1,245 @@
+/* .maintogglediv {
+  height: 68px;
+  background-color: #eeececba;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#deletebackdiv {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 12px;
+  bottom: 5px;
+  border-radius: 2px;
+}
+
+#deletetoggle {
+  font-size: 12px;
+  position: relative;
+  top: 4px;
+  left: 5.5px;
+  display: none;
+  color: rgb(255, 0, 0);
+  z-index: 3;
+}
+
+.maintogglediv:hover #deletetoggle {
+  font-size: 12px;
+  position: relative;
+  top: 4px;
+  display: block;
+  cursor: pointer;
+}
+
+#droptoggle {
+  font-size: 12px;
+  position: relative;
+  top: 20px;
+  left: 4px;
+  cursor: pointer;
+  z-index: 1;
+  color: #216c98;
+}
+
+.dletandtoggle {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.toggleandcount {
+  position: relative;
+  top: -50%;
+}
+
+#countoftoggle {
+  color: #216c98;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#inputtoggle {
+  width: 70%;
+  border: none;
+  outline: #216c98;
+  position: relative;
+  bottom: 39px;
+  border-radius: 2px;
+  background-color: #cccccc09;
+  border-bottom: 1px solid #216c98;
+  font-size: 10px;
+}
+
+#inputtoggle:hover {
+  opacity: 1;
+}
+
+#togl {
+  position: relative;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.divdropdowntoggle {
+  background-color: #faf7f7;
+  box-shadow: 0px 2px 10px #ccc;
+  color: white;
+  height: auto;
+  border-radius: 5px;
+  position: relative;
+  bottom: 57%;
+  z-index: 2;
+}
+
+.dropdown-options-togle {
+  position: absolute;
+  background-color: #faf7f7;
+  box-shadow: 0px 2px 10px #ccc;
+
+  color: white;
+
+  border-radius: 5px;
+
+  width: 100%;
+}
+
+.dropdown-options-togle li:hover {
+  background-color: #216c98;
+
+  color: white;
+}
+
+.togglelist {
+  font-size: 10px;
+
+  list-style: none;
+
+  color: black;
+}
+
+.togglerow {
+  border: none;
+}
+
+#plustoggle {
+  cursor: pointer;
+  font-weight: bold;
+ font-size: 20px;
+  color: #216c98;
+ position: relative;
+  top: 29%;
+}
+
+#btn-outer-delete {
+  color: red;
+  border: none;
+  background-color: white;
+  position: relative;
+  top: 40%;
+  cursor: pointer;
+}
+
+#copytoggle {
+  position: relative;
+  top: 36%;
+  cursor: pointer;
+}
+
+#fixed-controls {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.first-row-elements {
+  position: relative;
+  top: 55px;
+}
+
+.other-row-elements {
+  position: relative;
+  top: 15px;
+}
+
+.addcomprow1,
+.addcomprow2,
+.addcomprow3 {
+  padding-left: 5px;
+  border: none;
+}
+
+.addcomprow1 p {
+  text-align: end;
+}
+
+.widthsizediv {
+  background-color: #ccc;
+  height: 38px;
+  border-radius: 5px;
+}
+
+#droptoggle1 {
+  border-radius: 5px;
+  position: relative;
+  bottom: 35%;
+  left: 97%;
+  font-size: 12px;
+}
+
+.toggle-iand-radio {
+  position: relative;
+  top: 20px;
+}
+
+#i-icon-toggle {
+  cursor: pointer;
+  color: #216c98;
+  font-weight: bold;
+  position: relative;
+  bottom: 47px;
+  left: 45%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.box {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.divdropdowntoggle2 {
+  background-color: #faf7f7;
+  box-shadow: 0px 2px 10px #ccc;
+  color: white;
+  height: auto;
+  border-radius: 5px;
+  position: relative;
+  z-index: 3;
+}
+
+#setoption {
+  font-size: 8px;
+  font-weight: bold;
+  color: #216c98;
+  text-align: center;
+}
+
+#reqr {
+  position: relative;
+  bottom: 44px;
+  left: 46%;
+}
+
+#reqlab {
+  font-size: 9px;
+  font-weight: bold;
+  position: relative;
+  bottom: 50px;
+  left: 47%;
+}
+
+#widthcell {
+  text-align: center;
+  font-size: 12px;
+} */

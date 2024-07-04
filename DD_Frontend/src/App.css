@@ -1,0 +1,310 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.modal-row {
+  display: flex;
+  background-color: white;
+  gap: 8%;
+  padding: 15px;
+}
+.modal-btn {
+  background-color: rgb(213, 227, 231);
+  width: 100%;
+  border-radius: 1%;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  border: #1e1e1f;
+  align-items: center;
+  justify-content: center;
+}
+
+.fr-wrapper {
+  position: relative;
+  z-index: 0;
+}
+.react-datepicker-wrapper {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
+
+.rdtPicker thead tr:first-of-type th {
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.rdtOpen .rdtPicker {
+  border: 2px solid #216c98;
+  width: 100%;
+}
+
+.rdtPicker .dow {
+  font-size: 11px;
+}
+
+.rdtPrev span .rdtNext span {
+  font-size: 20px;
+}
+
+.rdtPicker td.rdtActive,
+.rdtPicker td.rdtActive:hover {
+  background-color: #216c98;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.rdtPicker thead tr:first-of-type th:hover {
+  background: #216c98;
+  color: white;
+}
+#reset_data {
+  padding: 6px;
+  color: red;
+  border-radius: 20px;
+  border-color: red;
+  font-size: 9px;
+  border: 2px solid rgb(228, 27, 27);
+  background-color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+#reset_data:active {
+  transform: scale(0.9);
+  color: white;
+  background-color: rgb(228, 27, 27);
+}
+#delete_data:active {
+  transform: scale(0.9);
+  color: white;
+  background-color: rgb(228, 27, 27);
+}
+#update_data:active {
+  transform: scale(0.9);
+  color: white;
+  background-color: #267c98;
+}
+#save_data:active {
+  transform: scale(0.9);
+  color: white;
+  background-color: #1d834b;
+}
+#delete-highlight:active {
+  transform: scale(0.9);
+}
+#delete_update {
+  gap: 1%;
+}
+
+#save_data {
+  padding: 6px;
+  color: green;
+  border-radius: 20px;
+  border-width: 2px;
+  font-size: 9px;
+  font-weight: 800;
+  border: 2px solid #1d834b;
+  cursor: pointer;
+  background-color: white;
+}
+#delete_data {
+  padding: 6px;
+  color: rgb(228, 27, 27);
+  border-radius: 20px;
+  border: 2px solid rgb(228, 27, 27);
+  font-size: 9px;
+  background-color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+#save_data:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+#delete_data:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+#update_data:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+#update_data {
+  padding: 6px;
+  color: #267c98;
+  border-radius: 20px;
+  border: 2px solid #267c98;
+  font-size: 9px;
+  background-color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+#openbtn {
+  border: none;
+  height: 70px;
+  width: 18px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: 98.5%;
+  cursor: pointer;
+  position: sticky;
+  background-color: #216c98;
+  color: white;
+  z-index: 1;
+  top: 48%;
+}
+
+.sidepanel {
+  height: 100vh;
+  position: sticky;
+  top: 70px;
+}
+#accessmsg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: #ccc;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+}
+#reset_data:hover {
+  color: white;
+  background-color: rgb(228, 27, 27);
+}
+#save_data:hover {
+  color: white;
+  background-color: #1d834b;
+}
+
+#delete-highlight {
+  padding: 6px;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid rgb(228, 27, 27);
+  font-size: 9px;
+  background-color: rgb(228, 27, 27);
+  font-weight: 800;
+}
+#update_data:hover {
+  color: white;
+  background-color: #267c98;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+/*----------- custom-toast css---------  */
+
+.custom-toast_add .Toastify__progress-bar {
+  background: rgb(74, 146, 59) !important;
+}
+.custom-toast_delete .Toastify__progress-bar {
+  background: red !important;
+}
+.custom-toast_login .Toastify__progress-bar {
+  width: 500px;
+  background: #715cf3 !important;
+}
+.custom-toast_reg .Toastify__progress-bar {
+  background: #715cf3 !important;
+}
+.custom-toast_reg {
+  width: 200%;
+  right: 100%;
+  line-height: normal;
+}
+#fr-logo {
+  float: left;
+  outline: none;
+  display: none;
+}
+#openbtn {
+  position: fixed;
+  top: 50%;
+  z-index: 3;
+  right: 0;
+  height: 60px;
+  width: 16px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: #0f6b93;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+img#DealDoxIcon {
+
+  width: 194px;
+    height: 87px;
+    margin-bottom: 10px;
+}
+#accessmsgdiv {
+  position: relative;
+  top: 25px;
+}
+
+/* .invalid-element {
+  border: 1px solid #cd0404 !important;
+} */
+
+.toast-error-custom {
+  background-color: #cd0404 !important; /* !important might be necessary to override default styles */
+  color: white !important;
+  height: 4vh !important;
+}
+.toast-error-custom .Toastify__progress-bar {
+  background: white !important;
+}
+.toast-error-custom .toastify-toast-min-height {
+  min-height: 40px !important;
+}
+.toast-error-custom .Toastify__toast-body {
+  margin-left: 20px !important;
+}
+
+/* CSS for loading  */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.spinner-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: rgb(10, 91, 145);
+  /* border-right-color: rgb(10, 91, 145); */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+.loading_page {
+  display: flex;
+  position: absolute;
+  color: #0f6b93;
+  font-family: auto;
+  margin-top: 80px;
+}

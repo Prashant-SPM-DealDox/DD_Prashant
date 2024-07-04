@@ -1,0 +1,431 @@
+/* .rulebtnsdiv {
+  display: grid;
+  grid-template-columns: 0.01fr 0.08fr 0.2fr 0.08fr 0.08fr 0.05fr 0.05fr;
+  height: 40px;
+  border: 1px solid #ccc;
+
+  &:hover {
+    .upassetrule {
+      color: #216c98;
+      opacity: 1;
+    }
+  }
+
+  &:hover {
+    .downassetrule {
+      color: #216c98;
+      opacity: 1;
+    }
+  }
+}
+.rulebtnsdiv:hover {
+  background-color: rgba(240, 248, 255, 0.938);
+}
+.ruleinputreact {
+  border: none;
+  border-bottom: 1px solid #216c98;
+  top: 6px;
+  width: 100%;
+  height: 26px;
+  position: relative;
+  outline-color: white;
+  cursor: pointer;
+}
+
+#angledownrule,
+#angledowncondition {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  border: none;
+  color: black;
+  background: none;
+  padding: 6px;
+  cursor: pointer;
+}
+.upassetrule,
+.downassetrule {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  position: relative;
+  border: none;
+  background: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 6px;
+  color: #216c98;
+  font-size: 10px;
+  font-weight: bold;
+  height: 100%;
+}
+
+.copyasssetbtnrule {
+  position: relative;
+  font-size: 20px;
+  padding: 5px;
+  height: 40px;
+  border: none;
+  background: none;
+  color: #216c98;
+  width: 100%;
+  cursor: pointer;
+}
+.deleassetrulebtn {
+  position: relative;
+  font-size: 22px;
+  border: none;
+  padding: 6px;
+  background: none;
+  color: #ff0000;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+button.deleassetrulebtn.highlightedrules {
+  background-color: red;
+  color: white;
+  width: 100%;
+  height: 40px;
+}
+.labelsectionrule,
+.labelsectioncondition {
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+  padding: 12px;
+  width: 100%;
+  color: black;
+  text-wrap: nowrap;
+  font-weight: bold;
+}
+
+.conditionbtnsdiv {
+  display: grid;
+  height: 40px;
+  border: 1px solid #ccc;
+  grid-template-columns: 0.5fr 0.8fr 6fr;
+}
+.conditiongrid {
+  display: grid;
+  grid-template-columns: 1.4fr 2.5fr 1.5fr 1fr 1fr;
+}
+
+input.conditioninputreact {
+  position: relative;
+  border: none;
+  top: 5px;
+  height: 26px;
+  outline: none;
+}
+.valueinput,
+.valueinput1,
+.complexvalueinput1,
+.complexvalueinput {
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 59px;
+  font-size: 14px;
+  padding: 6px;
+  outline-color: #216c98;
+  width: 100%;
+}
+input.input-fieldcalender {
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 59px;
+  font-size: 14px;
+  padding: 6px;
+  outline-color: #216c98;
+  width: 100%;
+}
+.valueinput::placeholder,
+.valueinput1::placeholder,
+.complexvalueinput1::placeholder,
+.complexvalueinput::placeholder {
+  font-size: 14px;
+  color: #ccc;
+  font-style: italic;
+}
+.Lablevalue,
+.Lablevalue1,
+.complexLablevalue {
+  position: relative;
+  color: #216c98;
+  font-weight: bold;
+  bottom: 18%;
+  font-size: 11px;
+  float: left;
+  left: 9px;
+}
+.input-labelcalender {
+  position: relative;
+  color: #216c98;
+  font-weight: bold;
+  margin-top: -4%;
+  font-size: 11px;
+  float: left;
+  left: 6px;
+}
+.whenpencil,
+.whenpencil1,
+.complexpencil1,
+.complexpencil {
+  position: relative;
+  float: right;
+  bottom: 44%;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.anstoquesmaindiv {
+  display: grid;
+  height: 59px;
+  grid-auto-flow: column;
+  grid-template-columns: 30px 2fr;
+}
+
+.dropdownheader {
+  position: relative;
+  border: 1px solid rgb(204, 204, 204);
+  cursor: pointer;
+  outline-color: #216c98;
+  height: 59px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.dropdownoptions {
+  position: absolute;
+  list-style: none;
+  font-size: 11px;
+  border: 1px solid #ccc;
+  background-color: white;
+  z-index: 3;
+  padding: 1px;
+}
+
+.dropdownoption {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.dropdownoptions li:hover {
+  background-color: #216c98;
+  color: white;
+}
+
+.cuinput {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 6fr 6fr;
+}
+.input-field2,
+input.input-field,
+.calendercss {
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 59px;
+  outline-color: #216c98;
+  width: 100%;
+  padding: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.atqlabel {
+  position: relative;
+  color: #216c98;
+  font-weight: bold;
+  font-size: 10px;
+  float: left;
+  padding: 6px;
+}
+.doctypelabel {
+  position: relative;
+  color: #216c98;
+  font-weight: 800;
+  bottom: 16%;
+  font-size: 9px;
+  float: left;
+  padding-left: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 153px;
+}
+.valuelabel {
+  position: relative;
+  color: #216c98;
+  font-weight: 800;
+  margin-top: -13px;
+  font-size: 10px;
+  float: left;
+  padding-left: 4px;
+}
+#caretupcalcsheet {
+  color: #0f6b93;
+  position: relative;
+  float: right;
+  bottom: -40%;
+  font-size: 11px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#addSectionAsset {
+  cursor: pointer;
+  position: relative;
+  border: none;
+  font-size: 12px;
+  background-color: white;
+  color: #216c98;
+  margin: 5%;
+  font-weight: 800;
+}
+.addsectiondiv {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label.labelfortabclac {
+  position: relative;
+  color: #216c98;
+  font-weight: bold;
+  bottom: 16%;
+  font-size: 9px;
+  float: left;
+  padding-left: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 139px;
+}
+
+label.content7vertical.labelfortabclacUPDATEGRID2 {
+  position: relative;
+  color: #216c98;
+  font-weight: bold;
+  bottom: 16%;
+  font-size: 9px;
+  float: left;
+  padding-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 285px;
+}
+
+.calendercss::placeholder,
+.input-fieldcalender::placeholder,
+.input-field::placeholder,
+.assetorder::placeholder {
+  font-style: italic;
+  color: #ccc;
+  padding: 6px;
+}
+.sectioncalender {
+  display: grid;
+}
+.assetorder {
+  position: relative;
+  border: none;
+  border-bottom: 1px solid #216c98;
+  height: 26px;
+  width: 100%;
+  left: -4%;
+  top: 6px;
+  outline-color: white;
+  cursor: pointer;
+}
+.rulebtnsdiv.customruleasset {
+  display: grid;
+  grid-template-columns: 0.01fr 0.07fr 0.07fr 0.2fr 0.06fr 0.07fr 0.03fr 0.03fr;
+  height: 40px;
+}
+.i-main-div {
+  display: grid;
+  grid-template-columns: 0.35fr 3.84fr 1.62fr 2fr 0.35fr;
+  align-items: center;
+  color: #216c98;
+  border: 1px solid #ccc;
+  position: relative;
+  height: 45px;
+}
+
+.i-input-category1 {
+  width: 100%;
+  height: 100%;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding-left: 2%;
+}
+
+.i-input-reference {
+  width: 100%;
+  height: 100%;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding-left: 2%;
+}
+
+.note-input {
+  width: 100%;
+  height: 100%;
+}
+
+.notelable,
+.categorylable,
+.referencelable {
+  font-size: 10px;
+  position: relative;
+  bottom: 18px;
+  left: 5px;
+  font-weight: bold;
+}
+
+.note-input,
+.i-input-category1,
+.i-input-reference {
+  width: 100%;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.imain-div-items1,
+.imain-div-items2,
+.imain-div-items3,
+.imain-div-items4 {
+  width: 100%;
+  height: 100%;
+}
+
+#countsicomp {
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 3px;
+  padding-top: 15px;
+}
+#addExpression, #addGroup {
+  width: 200px;
+  border-radius: 14px;
+  background-color: white;
+  color: #216c98;
+  border: 1.5px solid #216c98;
+  margin: 21px;
+  font-size: 12px;
+  padding: 5px;
+  margin-left: 40%;
+  font-weight: bold;
+} */

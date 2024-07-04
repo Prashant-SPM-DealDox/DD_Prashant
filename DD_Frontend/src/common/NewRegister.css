@@ -1,0 +1,594 @@
+.register-container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
+  position: fixed;
+  display: flex;
+  background-image: url("../assets/Images/NewRegisterImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.left-register-container {
+  width: 50%;
+  height: 100%;
+  margin: 0px 20px;
+  position: relative;
+}
+
+.right-register-container {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.register-contents {
+  margin: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.register-main-image {
+  position: absolute;
+  bottom: 0;
+}
+
+.firstheading-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-heading {
+  font-size: 21px;
+  color: #444444;
+  font-family: Ubuntu;
+  font-weight: 600;
+}
+.no-credit-content {
+  color: #444444;
+  font-family: Open Sans;
+  padding: 2px 0px;
+  font-size: 15px;
+}
+
+.free-trail-content {
+  font-size: 17px;
+  color: #444444;
+  font-family: Ubuntu;
+  font-weight: 600;
+}
+
+.feature-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 14px;
+  font-family: Open Sans;
+}
+
+.need-assistance-content {
+  font-size: 15px;
+  color: #444444;
+  font-family: Ubuntu;
+  font-weight: 600;
+}
+
+.request-demo-button {
+  background-image: linear-gradient(to right, #715cf3, #5c99f3);
+  padding: 11px 18px;
+  border: none;
+  color: white;
+  font-family: "Open Sans";
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.dealdox-image {
+  margin-top: 10px;
+}
+
+.register-form-container {
+  height: 95%;
+  width: 90%;
+  border: 0.1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px 40px 0px 40px;
+  background-color: #ffffff;
+}
+
+.right-content-flex {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+}
+.main-form-container {
+  display: grid;
+  grid-template-rows: 10fr 1fr;
+  overflow: auto;
+}
+
+.form-div2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.4fr 0.6fr;
+}
+
+.firstname-lastname-container,
+.password-cpassword-container,
+.Company-JobTitle-container,
+.Employees-BusinessEmail-container,
+.PhoneNumber-Country-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+}
+
+.firstname-container,
+.lastname-container,
+.password-container,
+.cpassword-container,
+.Company-container,
+.JobTitle-container,
+.BusinessEmail-container,
+.PhoneNumber-container,
+.Country-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+
+.firstname-label,
+.lastname-label,
+.password-label,
+.cpassword-label,
+.Company-label,
+.JobTitle-label,
+.Employees-label,
+.BusinessEmail-label,
+.PhoneNumber-label,
+.Country-label {
+  height: 30%;
+  font-size: 13px;
+  padding: 2px;
+  color: #444444;
+  font-family: Open Sans;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.firstname-input,
+.lastname-input,
+.Company-input,
+.BusinessEmail-input,
+.JobTitle-input,
+.PhoneNumber-input {
+  height: 50%;
+  border-radius: 5px;
+  border: 0.3px solid #e2e8f0;
+  padding-left: 3px;
+  outline-color: #5c99f3;
+}
+
+.error-Input {
+  border: 0.1px solid red;
+  outline-color: red;
+  height: 50%;
+  border-radius: 5px;
+  padding-left: 3px;
+}
+
+.password-input,
+.cpassword-input {
+  height: 100%;
+  border-radius: 5px;
+  border: 0.3px solid #e2e8f0;
+  outline-color: #5c99f3;
+  padding-left: 3px;
+  width: 100%;
+}
+
+.password-input-eye,
+.cpassword-input-eye {
+  height: 50%;
+  position: relative;
+}
+
+.password-eye,
+.cpassword-eye {
+  position: absolute;
+  right: 6%;
+  top: 24%;
+  font-size: 16px;
+  color: #444444;
+}
+.error-password-eye {
+  position: absolute;
+  right: 6%;
+  top: 24%;
+  font-size: 16px;
+  color: red;
+}
+
+.firstname-input::placeholder,
+.lastname-input::placeholder,
+.password-input::placeholder,
+.cpassword-input::placeholder,
+.Company-input::placeholder,
+.BusinessEmail-input::placeholder,
+.JobTitle-input::placeholder,
+.PhoneNumber-input::placeholder,
+.Country-input::placeholder {
+  color: #444444;
+  opacity: 0.3;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.error-register {
+  height: 20%;
+  font-size: 12px;
+  padding-top: 3px;
+  color: red;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.signup-now-heading {
+  font-size: 25px;
+  color: #444444;
+  font-family: Ubuntu;
+  font-weight: 600;
+}
+
+.tired-content {
+  font-size: 13px;
+  font-family: Open Sans;
+  padding: 3px 0px;
+}
+
+.form-div1 {
+  display: flex;
+  flex-direction: column;
+}
+.StartMyFreeBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.freeTrialbtn {
+  background-image: linear-gradient(to right, #715cf3, #5c99f3);
+  width: 100%;
+  height: 93%;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+.checkboxflex {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  padding: 5px 0px 0px 0px;
+}
+
+.form-div3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+}
+
+.footer-regisster-Content {
+  font-size: 13px;
+  font-family: Open Sans;
+  width: 98%;
+  height: 100%;
+  padding: 3px 0px;
+}
+.right-register-container {
+  display: flex;
+  flex-direction: column;
+}
+.ddPvt {
+  font-family: Open Sans;
+  color: #ffffff;
+}
+.register-main-image {
+  max-width: 30vw;
+}
+/* .Employees-container{
+  width:50%;
+}
+ */
+.list-items {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  border: 0.1px solid #ccc;
+  top: 100%;
+  z-index: 10;
+}
+
+.register-error-message {
+  height: 20%;
+  font-size: 13px;
+  color: red;
+  font-family: Open Sans;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2px 0px 0px 1px;
+}
+
+.register-error-Input-container {
+  height: 94%;
+  width: 100%;
+  border: 0.1px solid red;
+  border-radius: 6px;
+  outline-color: red;
+  padding-left: 3px;
+}
+
+#update_data:active {
+  transform: scale(0.9);
+  color: white;
+  background-color: #267c98;
+}
+
+.error-icon {
+  width: 1vw;
+}
+
+.circle-check {
+  color: #444444;
+  opacity: 0.8;
+}
+
+button.freeTrialbtn:active {
+  transform: scale(0.9);
+}
+
+.feature-contents {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #444444;
+  font-family: Open Sans;
+}
+
+@media only screen and (max-width: 767px) {
+  .left-register-container {
+    display: none;
+  }
+
+  .right-register-container {
+    width: 100%;
+  }
+  .firstname-lastname-container,
+  .password-cpassword-container,
+  .Company-JobTitle-container,
+  .Employees-BusinessEmail-container,
+  .PhoneNumber-Country-container {
+    flex-direction: column;
+    gap: 0;
+  }
+  .firstname-container,
+  .lastname-container,
+  .password-container,
+  .cpassword-container,
+  .Company-container,
+  .JobTitle-container,
+  .BusinessEmail-container,
+  .PhoneNumber-container,
+  .Country-container,
+  .Employees-container {
+    width: 100%;
+  }
+  .firstname-input,
+  .lastname-input,
+  .password-input,
+  .cpassword-input,
+  .Company-input,
+  .BusinessEmail-input,
+  .JobTitle-input,
+  .PhoneNumber-input,
+  .Country-input {
+    padding: 16px 3px;
+    width: 99%;
+  }
+  .signup-now-heading {
+    font-size: 18px;
+  }
+  .freeTrialbtn {
+    padding: 7px;
+    margin: 3px;
+  }
+  .form-div2 {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.2fr 0.6fr;
+  }
+  .freeTrialbtn {
+    height: 51%;
+    margin-bottom: 20px;
+  }
+  .main-form-container {
+    grid-template-rows: 10fr 0.9fr;
+  }
+  .footer-regisster-Content {
+    font-size: 13px;
+  }
+  .register-form-container {
+    padding: 20px 30px 0px 30px;
+  }
+  .footer-regisster-Content {
+    position: relative;
+    top: -26px;
+  }
+
+  .break-tag {
+    display: none;
+  }
+  .register-error-Input-container {
+    width: 98%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 912px) {
+  .signup-heading {
+    font-size: 28px;
+  }
+  .no-credit-content {
+    font-size: 18px;
+  }
+  .free-trail-content {
+    font-size: 22px;
+  }
+  .register-contents {
+    margin: 37px 31px;
+    gap: 26px;
+  }
+  .feature-content {
+    font-size: 20px;
+  }
+  .need-assistance-content {
+    font-size: 23px;
+  }
+  .request-demo-button {
+    padding: 11px 13px;
+    font-size: 14px;
+  }
+  .register-main-image {
+    width: 406px;
+  }
+  .dealdox-image {
+    width: 194px;
+  }
+  .firstname-lastname-container,
+  .password-cpassword-container,
+  .Company-JobTitle-container,
+  .Employees-BusinessEmail-container,
+  .PhoneNumber-Country-container {
+    flex-direction: column;
+    gap: 0;
+  }
+  .firstname-container,
+  .lastname-container,
+  .password-container,
+  .cpassword-container,
+  .Company-container,
+  .JobTitle-container,
+  .BusinessEmail-container,
+  .PhoneNumber-container,
+  .Country-container {
+    width: 100%;
+  }
+  .form-div2 {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.2fr 0.6fr;
+  }
+
+  .break-tag {
+    display: none;
+  }
+}
+
+.password-validation-container {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  z-index: 10;
+  border: 0.1px solid #ccc;
+  top: 100%;
+  margin: 1px 0px;
+  border-radius: 3px;
+}
+
+.pass-list-items {
+  font-size: 12px;
+  padding: 4px;
+}
+
+.validates {
+  color: black;
+  font-size: 0.9vw;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px;
+}
+
+.notValidates {
+  color: red;
+  font-size: 0.9vw;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px;
+}
+
+
+
+
+@media only screen and (max-width: 960px) {
+  .left-register-container {
+    display: none;
+  }
+
+  .right-register-container {
+    width: 100%;
+  }
+  .footer-regisster-Content {
+    text-align: center;
+  }
+  .break-tag {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 963px) and (max-width: 1230px) {
+  .left-register-container {
+    width: 44%;
+  }
+  .right-register-container {
+    width: 56%;
+  }
+  .register-form-container {
+    width: 97%;
+    padding: 20px 31px 0px 35px;
+  }
+  .break-tag {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 912px) {
+  .left-register-container {
+    display: none;
+  }
+  .firstname-lastname-container,
+  .password-cpassword-container,
+  .Company-JobTitle-container,
+  .Employees-BusinessEmail-container,
+  .PhoneNumber-Country-container {
+    flex-direction: row;
+    gap: 10px;
+  }
+}

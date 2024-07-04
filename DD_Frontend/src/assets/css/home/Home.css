@@ -1,0 +1,217 @@
+/* Home Component */
+.containerhome {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-contenthome {
+  flex: 1;
+  box-sizing: border-box;
+  transition: margin-right 0.3s ease-in-out;
+  margin-right: 0;
+  width: 100%;
+  margin-left: 70px;
+}
+#box-1,
+#box-2 {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin: 0px;
+}
+#box-3,
+#box-4 {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin: 0px;
+}
+#grid {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  margin-top: 67px;
+}
+
+.home_grid1,
+.home_grid2,
+.home_grid3,
+.home_grid4 {
+  grid-column: auto;
+  grid-row: auto;
+  padding-right: 5px;
+}
+
+.textData {
+  height: 100%;
+  /* border: 1px solid rgb(228, 227, 227); */
+  width: 100%;
+  position: relative;
+  min-height: max-content; 
+}
+
+.btn {
+  background-color: rgb(213, 227, 231);
+  width: 100%;
+  border-radius: 1%;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  border: #1e1e1f;
+  align-items: center;
+  justify-content: center;
+}
+
+.bt,
+.bts,
+.btn2 {
+  width: 160px;
+  height: 30px;
+  border: 1px solid black;
+  outline: none;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn2 {
+  background-color: #0f6b93;
+  color: #e7eaea;
+}
+
+.activeH,
+.activ {
+  background-color: #0f6b93;
+  color: #e7eaea;
+}
+
+.container-fluid {
+  padding-left: 6%;
+  padding-top: 68px;
+}
+
+/* Sidebar Styles - Assuming they are included in Sidebar component */
+.sidebarhome {
+  position: absolute;
+  top: 68px;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #f2f2f2;
+  transition: right 0.3s ease-in-out;
+}
+
+.sidebarhome-open .main-contenthome {
+  margin-right: 250px;
+}
+
+.sidebarhome-open .sidebarhome {
+  right: 0;
+}
+
+.sidebarhome-toggle {
+  position: absolute;
+  top: 280px;
+  right: 0px;
+  z-index: 1;
+  height: 60px;
+  width: 15px;
+  transition: right 0.3s ease-in-out;
+  background-color: #3d87a6;
+  border-right: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.myHome,
+.myHomeopp {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  top: 8px;
+  position: relative;
+
+  max-height: 100px;
+}
+.myHomeTd,
+.myHomeoppTd {
+  padding: 5px 5px 5px 10px;
+  border: 1px solid rgb(228, 227, 227);
+  width: 250px;
+  font-size: 11px;
+  line-height: 1.4;
+
+  /* height: 45px; */
+  /* text-align: center; */
+}
+#myHome_Tbody{
+max-height: 100px;
+overflow-y: scroll;
+}
+#hover-link {
+  color: black; /* Initial color */
+  transition: color 0.3s; /* Smooth transition effect */
+
+  /* Add any other styling as needed */
+}
+
+#hover-link:hover {
+  color: #216c98; /* Your desired hover color here */
+}
+.sidebarhome-open .sidebarhome-toggle {
+  right: 210px;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebarhome-toggle {
+    position: fixed;
+  }
+
+  .sidebarhome-open .sidebarhome-toggle {
+    right: calc(100vw - 50px);
+  }
+}
+
+.homeEntire {
+  display: flex;
+}
+/* #sidepanel {
+  margin-top: 64px;
+} */
+
+/* For Mobile(320px to 767px) */
+@media (min-width: 320px) and (max-width: 767px) {
+  #grid {
+    grid-template-columns: 1fr;
+    height: 100vh;
+  }
+  .textData {
+    height: 45vh;
+    border: none;
+  }
+}
+
+/* For Tablets (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin-top: 70px;
+  }
+  .textData {
+    height: 40vh;
+  }
+}

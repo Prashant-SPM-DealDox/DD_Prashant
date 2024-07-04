@@ -1,0 +1,639 @@
+.rowaccess {
+  display: flex;
+  background-color: white;
+  margin-left: 68px;
+  padding-top: 70px;
+}
+ 
+.inactiveOrg {
+  color: #4c31f9;
+}
+ 
+.grid-access {
+  display: grid;
+  grid-template-columns: 1.2fr 2fr;
+}
+ 
+#left-grid-access {
+  height: 100%;
+  border-bottom: 0.1px solid rgb(218, 217, 217);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+#left-grid-circle {
+  margin-top: 20px;
+  color: rgb(215, 213, 213);
+  font-size: 95px;
+  justify-content: center;
+  display: flex;
+}
+ 
+#left-grid-clock {
+  display: flex;
+  justify-content: space-around;
+  /* bottom: 24px; */
+  left: 47px;
+  font-size: 18px;
+  position: relative;
+  color: orange;
+  top: 6px;
+}
+ 
+/* #left-grid-access label {
+  color: #216c98;
+  top: 34px;
+  left: 47px;
+  font-size: 12px;
+  font-weight: 800;
+  position: relative;
+} */
+ 
+label.hasaccessone {
+  position: relative;
+  color: #216c98;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 700;
+  justify-content: center;
+  top: -34px;
+  left: 99px;
+}
+label.hasaccesstwo {
+  position: relative;
+  color: #216c98;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  justify-content: center;
+  top: -26px;
+  left: 90px;
+}
+/* .hasaccesstwo{
+ 
+  position: absolute;
+  padding-top: 5rem;
+} */
+ 
+#left-grid-access p {
+  color: #216c98;
+  margin-top: -25px;
+  margin-left: 55%;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+}
+ 
+/* --------rightside access---------------- */
+ 
+.rightaccess {
+  background-color: white;
+  padding-right: 4px;
+  padding-left: 4px;
+  position: relative;
+  width: 100%;
+}
+ 
+.containerAccess1,
+.containerAccess2,
+.containerAccess3,
+.containerAccess4,
+.containerAccess7,
+.containerAccess8,
+.containerAccess9 {
+  display: grid;
+  height: 59px;
+  grid-template-columns: 1fr 1fr;
+}
+ 
+#contentAccess1,
+#contentAccess2,
+#contentAccess3,
+#contentAccess4,
+#contentAccess5,
+#contentAccess6,
+#contentAccess8,
+#contentAccess11,
+#contentAcces64 {
+  height: 59px;
+  position: relative;
+}
+ 
+.managerlabel {
+  padding-left: 50px;
+}
+ 
+.emailcolor {
+  color: #4c31f9;
+}
+ 
+#contentAccess7 {
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.containerAccess5 {
+  display: flex;
+  height: 59px;
+  border: 0.1px solid rgb(218, 217, 217);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+ 
+.roles1,
+.login_email_msg {
+  font-size: 12px;
+  font-style: italic;
+  color: #000;
+  top: 4px;
+  position: relative;
+}
+ 
+.containerAccess6 {
+  display: flex;
+  flex-direction: row;
+  height: 59px;
+  border: 0.1px solid rgb(218, 217, 217);
+  justify-content: space-around;
+  background-color: rgb(240, 240, 240);
+}
+ 
+#contentAccess9 {
+  display: flex;
+  border-right: 0.1px solid rgb(218, 217, 217);
+  width: 61.5vh;
+  left: 13px;
+  position: relative;
+}
+ 
+.profile-icon1 {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: lightgray;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 37px;
+  top: -47px;
+  left: 102%;
+}
+ 
+.accessmanager {
+  position: relative;
+  color: #216c98;
+  font-weight: 800;
+  top: -17px;
+  font-size: 10px;
+  padding-left: 6px;
+  float: left;
+  text-wrap: nowrap;
+}
+ 
+#deleteandtoken {
+  margin-top: 15px;
+  padding: 6px;
+  /* color: maroon; */
+  border-radius: 20px;
+  /* border-color: red; */
+  font-size: 10px;
+  background-color: rgba(239, 239, 239, 0.3);
+  color: rgba(16, 16, 16, 0.3);
+  border-color: rgba(118, 118, 118, 0.3);
+  z-index: 999;
+  position: relative;
+}
+ 
+.refernce1 {
+  height: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.containerAccess5 {
+  display: flex;
+  height: 59px;
+  border: 0.1px solid rgb(218, 217, 217);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.login_email_div {
+  display: flex;
+  height: 89px;
+  border: 0.1px solid rgb(218, 217, 217);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+ 
+.loginEml {
+  display: flex;
+  border: 1px solid #ccc;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+ 
+.role1 h4 {
+  font-size: 14px;
+}
+ 
+.refernce1 h4 {
+  font-size: 14px;
+}
+ 
+.loginemailpswd {
+  font-size: 14px;
+}
+ 
+#removeaccess {
+  width: 120px;
+  padding: 6px;
+  /* color: maroon; */
+  border-radius: 20px;
+  border: 2px solid red;
+  font-size: 11px;
+  background-color: white;
+}
+ 
+#resendemail {
+  margin-left: 10px;
+  width: 110px;
+  padding: 6px;
+  /* color: rgb(34, 145, 164); */
+  border-radius: 20px;
+  border: 2px solid rgb(0, 109, 128);
+  font-size: 11px;
+  background-color: white;
+}
+ 
+.checkBoxAccess {
+  padding-left: 31px;
+}
+ 
+/* -------------------------- */
+ 
+#accessmsgdiv {
+  position: relative;
+  top: 34px;
+}
+ 
+#toggleextra {
+  color: #0f6b93;
+  position: relative;
+  float: right;
+  top: -37px;
+  right: 22px;
+}
+ 
+#extralist li {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 11px;
+  font-weight: bold;
+}
+ 
+#unique {
+  background-color: #ccc;
+  height: 59px;
+  width: 50%;
+}
+ 
+.extrainput {
+  position: relative;
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 59px;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 12px;
+  outline-color: #216c98;
+  width: 100%;
+  border-radius: 3px;
+  padding-left: 6px;
+}
+ 
+#extralist {
+  z-index: 1;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  list-style: none;
+  top: -19px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+ 
+#extralist li:hover,
+#norextra li:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+ 
+li#norextra {
+  text-align: center;
+}
+ 
+#labelextra {
+  text-align: center;
+  top: -18px;
+  color: #216c98;
+  font-weight: 800;
+  font-size: 10px;
+  position: relative;
+  padding-left: 6px;
+}
+ 
+#notelist {
+  position: relative;
+  top: -16px;
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+  height: 77px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  font-size: 12px;
+  z-index: 1;
+}
+ 
+#noteslabel {
+  color: #216c98;
+  top: -20px;
+  left: 5px;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+ 
+#noteaccessinput {
+  width: 100%;
+  height: 61px;
+  border: 1px solid #ccc;
+  outline-color: #216c98;
+  padding-left: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+ 
+#notelistitem {
+  padding: 8px;
+  font-weight: lighter;
+}
+ 
+.editloginbutton {
+  color: #267c98;
+  border-radius: 20px;
+  border: 2px solid #267c98;
+  font-size: 9px;
+  background-color: white;
+  font-weight: 800;
+  cursor: pointer;
+  padding: 6px;
+}
+ 
+.loginDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3px;
+}
+ 
+.acesscontainer {
+  height: 370px;
+  width: 100%;
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  flex-direction: column;
+}
+ 
+.sub-container {
+  display: flex;
+}
+ 
+.login-heading {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.left-sub-container,
+.right-sub-container {
+  width: 45%;
+  /* height: 230px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.right-sub-container {
+  gap: 15px;
+}
+ 
+.email-input-box,
+.password-input-box,
+.confirm-password-input-box {
+  height: 70px;
+  width: 100%;
+}
+ 
+.email-input,
+.passwords-input,
+.confirm-input {
+  width: 96%;
+  border: 0.1px solid #ccc;
+  outline-color: #0f6b93;
+  height: 100%;
+  border-radius: 3px;
+  padding-bottom: 8px;
+  padding-left: 6px;
+}
+ 
+.email-label,
+.password-label,
+.confirm-label {
+  font-size: 11px;
+  position: relative;
+  bottom: 22px;
+  left: 8px;
+  color: #0f6b93;
+}
+ 
+.login-heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+ 
+.cancelsavebuttons {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+ 
+.cancelButtons {
+  padding: 8px;
+  border: 2px solid #0f6b93;
+  border-radius: 20px;
+  color: #0f6b93;
+  font-size: 10px;
+}
+ 
+.cancelButtons:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+ 
+.savebuttons {
+  padding: 8px;
+  border: 2px solid red;
+  border-radius: 20px;
+  color: red;
+  font-size: 10px;
+}
+ 
+.savebuttons:hover {
+  background-color: red;
+  color: white;
+}
+ 
+.rightside-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+ 
+.content {
+  font-size: 14px;
+  line-height: 17px;
+}
+ 
+.text-inputs {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+ 
+.validate {
+  color: black;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+ 
+.notValidate {
+  color: red;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+ 
+.open-page {
+  border-bottom: 0.1px solid #ccc;
+}
+ 
+.close-page {
+  border-bottom: none;
+}
+ 
+.password-redLabel {
+  font-size: 11px;
+  position: relative;
+  bottom: 22px;
+  left: 8px;
+  color: red;
+}
+ 
+.error-password-input {
+  width: 96%;
+  border: 0.1px solid red;
+  outline-color: red;
+  height: 100%;
+  border-radius: 3px;
+  padding-bottom: 8px;
+  padding-left: 6px;
+}
+ 
+.sidePanelLine {
+  height: 100%;
+  border-left: 2px solid #046088;
+}
+ 
+.sidePanelBox {
+  display: flex;
+  flex-direction: row;
+}
+ 
+.sidePanelBox {
+  display: flex;
+  flex-direction: row;
+}
+ 
+.loginEditButton {
+  border: 2px solid #267c98;
+  border-radius: 20px;
+  color: #267c98;
+  padding: 6px 6px;
+  background-color: white;
+  font-weight: 800;
+  font-size: 9px;
+}
+/*
+.loginEditButton:hover {
+  border: 2px solid #267c98;
+  border-radius: 20px;
+  color: white;
+  background-color: #216c98;
+} */
+ 
+.loginDivss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2px;
+}
+ 
+.checkcustom {
+  color: #d0cdcd;
+}
+ 
+.defaultcheck {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: rgba(239, 239, 239, 0.3);
+  color: rgba(16, 16, 16, 0.3);
+  border-color: rgba(118, 118, 118, 0.3);
+}
+.defaultaccess {
+  /* position: relative; */
+  left: 45px;
+  top: 5px;
+}
+ 

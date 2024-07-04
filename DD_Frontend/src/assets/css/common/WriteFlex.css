@@ -1,0 +1,191 @@
+/* Left column (menu) */
+.profile_picturewriteflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 9px;
+}
+.profileid {
+  position: relative;
+  color: black;
+  font-weight: 700;
+  font-size: 8px;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+}
+.mn {
+  display: contents;
+}
+.noItemsMessage{
+  color: #216c98;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftwrite {
+  width: 20%;
+  background-color: white;
+  height: 0%;
+  position: sticky;
+  top: 70px;
+  bottom: 0px;
+  /* border: 1px solid #ccc; */
+}
+
+/* ------------write section search box----------------- */
+
+.inboxwrite {
+  width: 100%;
+  padding-top: 11px;
+  padding-left: 8px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.inboxwrite > i {
+  font-size: 20px;
+  padding-left: 5px;
+  color: #0f6b93;
+}
+
+#mySearchwrite {
+  height: 30px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  font-weight: larger;
+  width: 80%;
+  bottom: 4px;
+  margin-left: 5%;
+  position: relative;
+}
+
+.dividewrite {
+  width: 100%;
+  overflow-y: auto;
+  border-top: 1px solid #ccc;
+  border-bottom: none;
+  /* height: 450px; */
+  max-height: 420px;
+}
+
+#myMenuwrite {
+  list-style-type: none;
+  padding: 5px 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.writeflexoptions {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.writeflexoptions:hover {
+  color: white;
+  background-color: #216c98;
+  box-shadow: 1px 1px 1px 1px rgb(156, 153, 153);
+}
+
+.WriteFlexViewLess,
+.WriteFlexViewMore {
+  height: 40px;
+  border: none;
+  width: 100%;
+  background: #306889;
+  color: #fff;
+  position: sticky;
+  bottom: 30px;
+}
+
+.plusicon {
+  color: #0f6b93;
+  text-decoration: none;
+  position: relative;
+}
+
+.plusiconwrite {
+  display: flex;
+  text-align: center;
+  color: #0f6b93;
+  position: fixed;
+  bottom: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+input.content7inputRules.writeflexgrouping {
+  height: 40px;
+}
+
+.grouping {
+  height: 40px;
+}
+
+span.dropdown-icon-contentAction.writeflexicon {
+  top: -29px;
+}
+
+.writeflexoptions.selected {
+  background-color: #056289;
+  color: #fff;
+  box-shadow: 1px 1px 1px 1px rgb(156, 153, 153);
+}
+
+.faPlus {
+  width: 100%;
+  text-align: center;
+  margin-left: 6vw;
+  margin-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .inboxwrite {
+    padding-top: 4px;
+    padding-left: 4px;
+  }
+
+  .search-icon {
+    padding-top: 3px;
+    color: #0f6b93;
+  }
+}
+
+.search-icon {
+  color: #0f6b93;
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .plusiconwrite {
+    bottom: 5%;
+  }
+  .faPlus {
+    margin-left: 4vw;
+    top: 16vh;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .plusiconwrite {
+    bottom: 20%;
+  }
+  .faPlus {
+    margin-left: 5vw;
+    position: relative;
+    top: 17vh;
+  }
+}

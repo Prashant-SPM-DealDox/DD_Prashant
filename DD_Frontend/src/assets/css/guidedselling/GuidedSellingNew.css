@@ -1,0 +1,407 @@
+.guided-selling {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+.GuidedApplyButton:active {
+  transform: scale(0.9);
+}
+.gridcontainerguide {
+  flex: 1;
+  display: flex;
+}
+div#survey-input-container {
+  height: 100%;
+  width: 100%;
+}
+.rightguided {
+  flex: 1;
+  padding-top: 65px;
+  overflow-y: auto;
+  height: 100vh;
+  min-width: 71%;
+}
+
+.sidebarguideddiv {
+  position: relative;
+  min-width: 68px;
+  height: 100vh;
+}
+
+.expandedguidedexpandedguided {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainuideselling {
+  padding: 3px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.config_button {
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  background: none;
+  border: none;
+  position: relative;
+  font-weight: 700;
+}
+
+#settingicon,#spread-back-icon {
+  position: relative;
+  font-size: 20px;
+}
+.names_survey {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.names_surveycpq {
+  font-size: 12px;
+}
+.render-section{
+  display: grid;
+  grid-template-columns: 0.5fr 3fr;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+}
+
+.render-question {
+  display: grid;
+  grid-template-columns: 10% 40% 50%;
+   align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 11px;
+  font-weight: 600;
+  color: black;
+}
+
+.GuidedApplyButton {
+  position: relative;
+  border: 2px solid #216c98;
+  background: none;
+  color: #216c98;
+  border-radius: 26px;
+  text-align: center;
+  top: 10px;
+  width: 95px;
+  height: 25px;
+  font-size: 10px;
+  cursor: pointer;
+  font-weight: 800;
+}
+.GuidedApplyButton:hover {
+  background-color: #216c98;
+  color: white;
+}
+.addSectionAsset {
+  cursor: pointer;
+  position: relative;
+  border: none;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #216c98;
+  font-weight: 800;
+  width: 100%;
+  height: 59px;
+}
+.AddRulebtn,
+.AddQue,
+#ibutton {
+  background-color: white;
+  border: none;
+  color: #216c98;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 1.5% 5.5%;
+}
+.btn-deleteQuestion {
+  height: 100%;
+  border: none;
+  background-color: white;
+  color: red;
+}
+
+button.btn-icon-button {
+  border: none;
+  background: none;
+  color: #216c98;
+}
+.btn-delete {
+  border: none;
+  background-color: white;
+  color: red;
+  height: 59px;
+  font-size: 12px;
+}
+.Section_text,
+.question_input {
+  position: relative;
+  height: 59px;
+  width: 100%;
+  border: 0.1px solid #ccc;
+  outline-color: #216c98;
+}
+.Section_text::placeholder,
+.question_input::placeholder {
+  font-size: 15px;
+  color: #ccc;
+  font-style: italic;
+  padding: 4px;
+}
+#questionContent {
+  border-left: 1px solid #ccc;
+  word-break: break-word;
+  padding-left: 6px;
+  border-bottom: 0.1px solid #ccc;
+  border-right: 0.1px solid #ccc;
+  min-height: 59px;
+}
+
+.guidedsellingsidar {
+  margin-left: 24%;
+  padding-top: 65px;
+}
+#survey-section-part {
+  width: 100%;
+}
+/* *************************************************** */
+.sidebar2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding-top: 64px;
+}
+
+.expandedguided {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  /* overflow: auto; */
+}
+
+.guidedselling {
+  order: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #045679;
+  color: white;
+  text-align: center;
+  height: 40px;
+  font-weight: 600;
+
+}
+
+#guidedSellingSideBar {
+  order: 2;
+  /* height: 6.8%; */
+}
+
+.below_div {
+  order: 3;
+  z-index: 2;
+  flex-grow: 1;
+  overflow-y: auto;
+  position: relative;
+  bottom: 0px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  /* scrollbar-width: thin; */
+  height: 66vh;
+}
+
+.apply-configguided {
+  order: 4;
+  display: flex;
+  justify-content: center;
+  bottom: 0px;
+  position: relative;
+  height: 8%;
+  border: 1px solid #ccc;
+  background-color: aliceblue;
+  /* box-shadow: 10px 10px 5px aliceblue; */
+}
+
+button#leftBtn {
+  width: 35px;
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+span.btnguided {
+  display: flex;
+  justify-content: center;
+}
+.render-question--main .render-question .question-name{
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 11px;
+  opacity: 1.9;
+  font-family: system-ui;
+}
+.render-question--main .render-question .question-index{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  border-left: 0.1px solid #ccc;
+  border-bottom: 0.1px solid #ccc;
+}
+
+
+select.question-type {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-left: 6px;
+}
+.right-side-container {
+  display: flex;
+  width: 71%;
+}
+.guided_Calc {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+}
+button.guided-table,
+button.guided-back {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  background: none;
+  justify-content: center;
+  cursor: pointer;
+  gap: 6px;
+  align-items: center;
+}
+
+#guidedUPDownIcon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.guidedselling-expanded-container {
+   height: 60px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.gs-save-resume-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap:10px;
+  margin-left: 10px;
+}
+.gs-save-button,.gs-resume-button,.gs-export-button{
+  border: 2px solid #0aa7eb;
+    background: none;
+    color: #0aa7eb;
+    border-radius: 20px;
+    text-align: center;
+    padding:5px;
+    font-size: 10px;
+   
+  }
+  .gs-resume-button:hover,.gs-save-button:hover,.gs-export-button:hover{
+    background-color: #0aa7eb;
+     color:white;
+     border-radius: 20px;
+     text-align: center;
+     padding:5px;
+     font-size: 10px;
+    
+   }
+   
+   .gs-main-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+   }
+   .open-config-container {
+    display: flex;
+     gap: 34px;
+}
+  
+.gs-back-button-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(231, 231, 231);
+  height: 100%;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  gap:3px;
+}
+.back-button{
+  font-size: 12px;
+  background-color: rgb(231, 231, 231);
+}
+/* tab */
+
+.invalid-element{
+  border-left: 3px solid red !important;
+}
+.invalid-elementt{
+  border-right: 2px solid red !important;
+}
+
+@media only screen and (width: 1024px) and (height: 600px) {
+  .GuidedApplyButton {
+    top: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .GuidedApplyButton {
+    top: 26px;
+    position: relative;
+  }
+  .guided_Calc {
+
+    position: relative;
+  }
+  .names_survey {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.names_surveycpq {
+  font-size: 12px;
+}
+}
+ 

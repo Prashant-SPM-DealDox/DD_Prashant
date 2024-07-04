@@ -1,0 +1,385 @@
+.row {
+  display: flex;
+  background-color: white;
+  margin-left: 68px;
+  margin-top: 70px;
+}
+
+.left {
+  flex: 35%;
+  background-color: white;
+  border-right: 1px solid black;
+  width: 25%;
+}
+
+.plusicon {
+  text-align: center;
+  padding: 20px;
+  color: #0f6b93;
+  text-decoration: none;
+}
+
+.plusicon a {
+  color: #0f6b93;
+  text-decoration: none;
+}
+
+.divide {
+  overflow-y: scroll;
+  height: 430px;
+}
+
+.right {
+  background-color: white;
+  padding-right: 4px;
+  padding-left: 4px;
+  position: relative;
+  width: 100%;
+  border-left: 1px solid #ccc;
+}
+
+.containerA1 {
+  padding-top: 7px;
+  display: grid;
+  height: 61px;
+  grid-template-columns: 2.7fr 1.2fr;
+}
+.extrainputowner {
+  position: relative;
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 59px;
+  font-size: 12px;
+  outline-color: #216c98;
+  width: 100%;
+  padding-left: 50px;
+}
+#content2 {
+  border-radius: 1px;
+  width: 100%;
+  height: 60px;
+}
+
+.containerA2 {
+  padding-top: 6px;
+  display: grid;
+  height: 60px;
+}
+
+.containerA3 {
+  padding-top: 5px;
+  display: grid;
+  grid-template-columns: 2.7fr;
+  height: 60px;
+}
+#content4{
+  position: relative;
+}
+.containerA4 {
+  padding-top: 4px;
+  display: grid;
+  height: 60px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.containerA5 {
+  padding-top: 3px;
+  display: grid;
+  height: 60px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.opportunities {
+  padding-top: 80px;
+}
+
+.opportunities b {
+  margin-left: 42%;
+}
+
+.opportunities a {
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+}
+
+.opportunities table {
+  color: black;
+  font-size: 0.9em;
+  font-weight: 300;
+  line-height: 40px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 0.5px solid #1b1718;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.opportunities th {
+  background: #f5f4f4;
+  color: #110f0f;
+  border-bottom: 0.1px solid gray;
+  border-left: 0.1px solid rgb(176, 172, 172);
+}
+
+.opportunities td {
+  border-bottom: 0.1px solid gray;
+}
+
+.opportunities td:hover:not(th) {
+  background-color: rgb(218, 217, 217);
+}
+
+.opportunities input[type="button"] {
+  transition: all 0.3s;
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  text-decoration: none;
+  border-radius: 1px;
+  font-size: 12px;
+}
+
+.opportunities input[type="button"]:not(.active) {
+  background-color: transparent;
+}
+
+.opportunities .active {
+  background-color: gray;
+  color: #fff;
+}
+
+.opportunities input[type="button"]:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.plus-oppertunities {
+  margin-top: 10px;
+  margin-left: 48%;
+}
+
+.plus-oppertunities a {
+  text-decoration: none;
+  color: #216c98;
+}
+
+#accountbreadcrumbs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#save_cancel {
+  position: relative;
+  margin-top: 6%;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.error-border {
+  border-left: 6px solid red;
+}
+
+.delete_update {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+  margin:2%;
+  position: relative;
+}
+
+.deleteacc b {
+  margin-left: 45px;
+}
+
+.deleteacc p {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-left: 45px;
+  color: gray;
+}
+
+#tblStocks {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tblStocks td,
+#tblStocks th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-color: rgba(0, 0, 0, 0.1);
+  text-overflow: ellipsis;
+}
+
+#tblStocks td {
+  border: none;
+}
+
+#tblStocks tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tblStocks tr:hover {
+  background-color: #ddd;
+}
+
+#tblStocks th {
+  padding-left: 5px;
+  text-align: left;
+  background-color: #f5f5f5;
+  color: black;
+}
+
+#tblStocks td {
+  width: 20px;
+  color: black;
+}
+
+#tblStocks tr {
+  height: 20px;
+  color: black;
+  font-size: small;
+}
+
+.ellipsis th {
+  white-space: nowrap;
+}
+
+.list {
+  margin-left: 67px;
+  overflow-y: scroll;
+}
+
+.xlbutton {
+  margin-top: 25px;
+  margin-left: 96.5%;
+  color: #0f6b93;
+  background-color: white;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.acl {
+  padding-top: 45px;
+  text-align: center;
+  margin-left: 20px;
+  background-color: #f5f5f5;
+  padding: 12px;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.pagination button {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.oppotable {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.oppotable thead th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.oppotable tbody td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+.oppotable tbody td:hover {
+  background-color: #d8d8d8;
+}
+
+.project {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.profile-icon {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #046088;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 37px;
+  top: -46px;
+  left: 7px;
+}
+
+.content7inputRules.custom_dropdown_owner {
+  padding-left: 50px;
+}
+
+.ownerlabel {
+  padding-left: 51px;
+}
+
+.table_heading {
+  width: 144px;
+}
+
+#delete-highlight1 {
+  padding: 6px;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid rgb(228, 27, 27);
+  font-size: 9px;
+  background-color: rgb(228, 27, 27);
+  font-weight: 800;
+}
+
+#delete-highlight1:hover::after {
+  background: #333;
+  background: rgb(228, 27, 27);
+  border-radius: 5px;
+  color: #fff;
+  content: attr(data-gloss);
+  padding: 15px 15px;
+  position: absolute;
+  z-index: 98;
+  width: 160px;
+  font-size: 13px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 28px;
+  margin-left: -140px;
+}
+
+#delete-highlight1:hover:before {
+  border: solid;
+  border-color: rgb(228, 27, 27) transparent;
+  border-width: 0 8px 8px 8px;
+  content: "";
+  position: absolute;
+  z-index: 99;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.oppo_name:hover {
+  color: #402ee0;
+  text-decoration: underline;
+}

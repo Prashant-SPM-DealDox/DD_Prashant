@@ -1,0 +1,309 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+.gridcontainerguide {
+  display: flex;
+  background-color: white;
+  padding-left: 68px;
+  padding-top: 65px;
+}
+/* .guidedSellinggrid {
+  padding-top: 37px;
+} */
+.guidedsellingstart {
+  position: sticky;
+  top: 70px;
+  bottom: 0px;
+}
+.guidedselling {
+  width: 100%;
+  height: 51px;
+  background-color: #045679;
+  color: white;
+  text-align: center;
+  margin-top: -70px;
+}
+.btnguide {
+  border: none;
+  height: 70px;
+  width: 13px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  top: 14rem;
+  margin-left: 100%;
+  cursor: pointer;
+  position: relative;
+  background-color: #045679;
+  font-size: 20px;
+  color: aliceblue;
+  opacity: 0.5;
+  z-index: 1;
+}
+#faDownLeftAndUpRightToCenter {
+  transform: rotate(45deg);
+}
+.mainuideselling {
+  padding: 6px;
+  border-bottom: 1px solid #ccc;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .guidedsidebarcontent {
+  min-height: 500px;
+  border: 1px solid #ccc;
+} */
+
+.sidebarguide {
+  border: 1px solid #ccc;
+}
+
+.applybuttonguided {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f6b93;
+  position: fixed;
+  bottom: 0;
+  cursor: pointer;
+  background-color: white;
+  width: 20.5%;
+  height: 6%;
+}
+.spanclick {
+  padding: 4px;
+  font-size: 13px;
+}
+.buttonguided {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guidedbttn {
+  width: 44px;
+  height: 18px;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  border: 1px solid gray;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.guidedsidebarcontent {
+  max-height: 76vh;
+  overflow-y: auto;
+}
+
+.guided_selling_icons {
+  font-weight: bold;
+}
+.download_icon {
+  width: 11%;
+  position: relative;
+  bottom: 59px;
+}
+
+.dropdown-btn {
+  height: 40px;
+  width: 100%;
+  text-align: -webkit-match-parent;
+  background: none;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  color: #045679;
+  font-weight: bold;
+}
+
+.dropdown-container {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#textinc {
+  display: flex;
+  height: 40px;
+  width: 100%;
+}
+
+#countdisplay {
+  width: 20px;
+}
+#guidedFieldsBid {
+  border: 1px solid #ccc;
+  background: none;
+  min-height: 40px;
+  max-height: 100px;
+  overflow: hidden;
+  width: 100%;
+  text-wrap: balance;
+}
+#text-to-copyBid {
+  background-color: white;
+  border: 1px solid #ccc;
+  height: 40px;
+  padding: 10px;
+  width: 30%;
+}
+.yesno {
+  width: 70%;
+}
+.dateinputs {
+  width: 70%;
+  border: 1px solid #ccc;
+}
+.multitextareabox {
+  width: 70%;
+  border: 1px solid #ccc;
+}
+.nmb,
+.nmbr {
+  border: 1px solid #ccc;
+  outline-color: #216c98;
+  width: 70%;
+  border: 1px solid #ccc;
+}
+.textareabox {
+  width: 70%;
+  border: 1px solid #ccc;
+  outline-color: #216c98;
+}
+.togglein {
+  position: relative;
+  left: 15%;
+  width: 70%;
+  height: 15px;
+  top: 10px;
+  border: 1px solid #ccc;
+}
+.togglein1 {
+  width: 70%;
+  border: 1px solid #ccc;
+}
+#optionswidth {
+  background-color: red;
+}
+
+/*  */
+.calc_pencil_icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  margin-left: 26%;
+}
+
+#pencil {
+  padding-left: 33px;
+  position: relative;
+}
+#answer {
+  position: relative;
+  top: 4px;
+  left: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#configTable {
+  position: relative;
+  font-size: 20px;
+}
+#calc_tabel {
+  top: 19px;
+  right: 23px;
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#settingicon {
+  position: relative;
+  font-size: 20px;
+}
+
+.pencil:hover {
+  color: #216c98;
+}
+
+.pencil {
+  color: #6c6c6c;
+}
+.configTable {
+  padding-left: 21px;
+  color: #6c6c6c;
+}
+.configTable:hover {
+  color: #216c98;
+}
+.guideApply {
+  border: 2px solid #0aa7eb;
+  background: none;
+  color: #0aa7eb;
+  border-radius: 15px;
+  text-align: center;
+  width: 80px;
+  height: 25px;
+  font-size: 12px;
+}
+.guided_selling_sub2 {
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  color: #6c6c6c;
+}
+.guided_selling_sub2:hover {
+  color: #216c98;
+}
+
+.configlabel {
+  padding-top: 6px;
+  font-size: 11px;
+}
+
+select {
+  width: 70%;
+  border: 1px solid #ccc;
+  outline-color: #216c98;
+}
+
+select {
+  width: 70%;
+  border: 1px solid #ccc;
+  outline-color: #216c98;
+}
+/* .header_bar_guided {
+  width: 77%;
+} */
+
+/* .guided_Listing_div {
+  width: 100%;
+} */
+
+.guided_selling_icons {
+  font-weight: bold;
+}
+
+.download_icon {
+  width: 11%;
+  position: relative;
+  bottom: 59px;
+}
+
+.template_guide_start {
+  position: relative;
+  bottom: 11px;
+}
+.guidedSellinggrid {
+  position: relative;
+  top: 21px;
+  padding-left: 18px;
+}
+
+.inputtextv {
+  border: 1px solid #ccc;
+  outline-color: #216c98;
+}

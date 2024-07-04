@@ -1,0 +1,71 @@
+/* .formulasection {
+  display: grid;
+  grid-template-columns: 3.375fr 3.375fr 3.375fr 3.375fr;
+  color: #216c98;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 59px;
+  border: 1px solid #ccc;
+}
+
+
+.checkboxsection {
+  height: 100%;
+  width: 100%;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-right: 1px solid #898b8c;
+}
+
+.text {
+  height: 60px;
+  display: grid;
+  margin-top: -11px;
+  transition: background-color 0.3s black;
+}
+
+#sectionformula {
+
+  color: #216c98;
+  align-items: center;
+  height: 65px;
+  font-size: 12px;
+  margin-top: -9.5px;
+}
+
+.formula {
+  height: 100%;
+  width: 100%;
+  padding-left: 8px;
+  font-weight: bold;
+  position: relative;
+  bottom: 16px;
+}
+
+.section-div {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+  top: 7px;
+}
+
+.section-checkbox {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select-section{
+  color:#216c98;
+  width:100%;
+  height: 100%;
+  outline-color: #216c98;
+  border:0.1px solid #ccc;
+  padding-left: 5px;
+} */

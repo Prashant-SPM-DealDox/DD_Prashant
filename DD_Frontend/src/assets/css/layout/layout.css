@@ -1,0 +1,414 @@
+.container {
+  display: flex;
+}
+
+main {
+  width: 100%;
+}
+
+.sidebarfix {
+  margin-top: 65px;
+  height: 100%;
+  position: fixed;
+  z-index: 3;
+}
+
+.sidebar {
+  background: #216c98;
+  color: black;
+  height: 100%;
+  width: 67px;
+}
+
+.link {
+  display: flex;
+  color: #fff;
+  padding: 5px 17px;
+  border-bottom: 1px solid white;
+}
+
+.link:hover {
+  background: white;
+  color: #000;
+  transition: all 0.2s;
+}
+
+.active {
+  background: white;
+  color: #000;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.link_text {
+  font-size: 8px;
+  font-family: "robot";
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* --------------------top navigation bar(black)------------------------------- */
+
+nav {
+  display: flex;
+  width: 100%;
+  background: rgb(41, 41, 44);
+  justify-content: space-between;
+  height: 38px;
+  align-items: center;
+}
+.logo_image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 6%;
+  height: 100%;
+}
+.navset a i {
+  font-size: 20px;
+}
+
+.navandbread {
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+}
+
+/* ------------------searchbar--------------------- */
+.search {
+  left: 10px;
+  position: relative;
+  width: 250px;
+  height: 23px;
+  background:white;
+  border-radius: 90px;
+  transition: 0.5s;
+  box-shadow: 0 0 0 1px rgb(41, 41, 44);
+  overflow: hidden;
+}
+
+/* .search.active {
+ 
+} */
+
+.search .icon {
+  position: absolute;
+  top: 0;
+  left: -12px;
+  width: 60px;
+  height: 28px;
+  background:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+  color:white
+}
+
+i#fasearchicon {
+  font-size: 15px;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.search .input {
+  position: relative;
+  width: 200px;
+  height: 60px;
+  left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mysearch {
+  position: relative;
+  bottom: 18px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  padding: 10px 0;
+  background-color: black;
+}
+
+.clear {
+  position: absolute;
+  top: 20%;
+  transform: translate(-60%);
+  width: 15px;
+  height: 15px;
+  right: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clear::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 10px;
+  background: #999;
+  transform: rotate(45deg);
+}
+
+.clear::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 10px;
+  background: #999;
+  transform: rotate(315deg);
+}
+
+/* -------------------breadcrumbs---------------------- */
+.bread {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  height: 30px;
+  z-index: 3;
+  margin-top: 36px;
+}
+
+.breadcrumbs {
+  padding-left: 4px;
+  font-family: sans-serif;
+  background-color: white;
+  padding: 5px;
+}
+
+.breadcrumbs--item {
+  display: inline-block;
+}
+
+.breadcrumbs--item:not(:last-of-type)::after {
+  content: "\203a";
+  content-visibility: visible;
+  margin: 0 10px;
+  color: #484646;
+}
+
+.breadcrumbs--link {
+  color: #696464;
+  font-size: 10px;
+}
+.breadcrumbs--link_mid {
+  color: #000;
+  font-size: 12px;
+}
+.breadcrumbs--link--active {
+  color: #1b2a27;
+  font-size: 13px;
+  font-weight: 400;
+  font-weight: bold;
+}
+/* .breadcrumbs--active{
+    
+  } */
+.breadcrumbs--link_mid:hover {
+  color: #045679;
+  text-decoration: underline;
+}
+.breadcrumbs--link:hover {
+  color: #045679;
+  text-decoration: underline;
+}
+
+.breadcrumbs i:hover {
+  color: #216c98;
+}
+
+/* ---------------profiledropdown---------------- */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content_navbar {
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 32px;
+  right: 0px;
+}
+
+.dropdown-content_navbar a {
+  color: black;
+  padding: 16px 20px;
+  font-family: sans-serif;
+  font-size: x-small;
+  font-size: 80%;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid rgb(11, 11, 11);
+}
+
+.dropdown a:hover {
+  background-color: #045679;
+  color: white;
+}
+
+.show {
+  display: block;
+}
+/* global search*/
+.searchdropdownopen{
+  
+}
+.searchdropdownnav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  position: absolute;
+  min-height: 40vh;
+  min-width: 30vw;
+  left: 17px;
+  top: 30px;
+  list-style: none;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 12px;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+
+.searchRecentnav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  position: absolute;
+  min-height: 30vh;
+  min-width: 30vw;
+  left: 17px;
+  /* top: 30px; */
+  list-style: none;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 12px;
+  overflow-y: hidden;
+}
+.accountsnavacc,
+.accountsnavopp,
+.accountsnavquotes,
+.recentListsnav {
+  position: relative;
+  font-size: 14px;
+  background-color: #216c98;
+  height: 5vh;
+  padding: 7px 4px 4px 9px;
+  color: white;
+}
+
+.dropdown-nav-content7 {
+  padding: 5px;
+  text-align: left;
+  position: relative;
+  color: black;
+}
+.searchdropdownnav.scrollable {
+  overflow-y: scroll;
+}
+.dropdown-nav-content7:hover {
+  background-color: #dff5ff;
+  color: #216c98;
+}
+/* session timeout css */
+/* session timeout css */
+ 
+.Header_Session_Timeout {
+  font-size: 18px;
+  border-radius: 6px;
+  width: 100%;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+ 
+.close-btn {
+  position: absolute;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.span_timeout {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 10px;
+}
+p.Content_Time_msg {
+  line-height: 24px;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+.p_time {
+  padding: 12px;
+}
+.Time_remaining {
+  line-height: 15px;
+}
+.modal-btn {
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+}
+.modal-btn2 {
+  background-color: #216c98;
+  width: 100%;
+  color: white;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  align-items: center;
+  justify-content: center;
+}
+.Header_Session_In_active_Timeout {
+  background-color: #216c98;
+  width: 100%;
+  color: white;
+  display: flex;
+  overflow: hidden;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  align-items: center;
+  justify-content: center;
+}
+.modal-btn:active,
+.modal-btn2:active {
+  transform: scale(0.9);
+}
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}

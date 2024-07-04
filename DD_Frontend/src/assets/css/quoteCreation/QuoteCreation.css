@@ -1,0 +1,101 @@
+.flex-container {
+  width: 100%;
+  height: 100vh;
+}
+.createquoteheader {
+  font-size: 17px;
+}
+.guidedsellinglabel {
+  padding-left: 23px;
+}
+
+/* Create a column layout with Flexbox */
+.row-newquote {
+  display: flex;
+  padding-left: 66px;
+  padding-top: 65px;
+  background-color: white;
+}
+
+/* Left column (menu) */
+.left-newquote {
+  flex: 27% 1;
+  border: 2px solid #045679;
+  width: 25%;
+  height: 100vh;
+  padding-left: 1px;
+  position: fixed;
+}
+
+.right-newquote {
+  flex: 70%;
+  border-right: 1px solid black;
+  margin-right: 15px;
+  /* display: none; */
+}
+
+/* Css For haeding of left section */
+.create_quote_header_div {
+  padding-left: 18px;
+  padding-top: 10px;
+  height: 48px;
+  font-size: 20px;
+  background-color: #045679;
+  color: white;
+}
+
+.createbtn {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+#create {
+  height: 30px;
+  width: 80px;
+  background: #045679;
+  border: 2px solid #045679;
+  color: white;
+  border-radius: 20px;
+}
+#create:active {
+  transform: scale(0.9);
+}
+/* Search for this functionality by using id (may cause prob in future) */
+
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.faAngleLeft {
+  cursor: pointer;
+}
+
+/* mayank chnages */
+.loader-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader {
+  border: 3px solid #045679;
+  border-radius: 50%;
+  border-top: 4px solid #ffffff; 
+  width: 100px;
+  height: 100px;
+  animation: spin 1s linear infinite;
+}
+
+.showloding {
+  position: absolute;
+  top: calc(50% + 50px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+

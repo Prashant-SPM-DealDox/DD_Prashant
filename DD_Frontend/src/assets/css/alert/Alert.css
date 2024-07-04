@@ -1,0 +1,93 @@
+/* .AlertMain {
+  display: flex;
+  padding-left: 66px;
+  padding-top: 66px;
+  background-color: white;
+}
+
+#Alert-head {
+  background-color: white;
+  z-index: 1;
+  padding-right: 4px;
+  padding-left: 4px;
+  top: 5px;
+  position: relative;
+  width: 100%;
+}
+
+#text {
+  position: relative;
+  top: 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plusiconalert {
+  padding: 15px;
+  margin-top: 38%;
+  margin-left: 90px;
+  position: fixed;
+  color: #0f6b93;
+  text-decoration: none;
+  cursor: pointer;
+}
+#alertmsg {
+  position: relative;
+  top: 34px;
+}
+#msg {
+  position: relative;
+  font-size: 10px;
+  color: #ccc;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.alertgrid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+
+}
+
+#alertlabel {
+  color: #216c98;
+  top: -20px;
+  left: 12px;
+  font-size: small;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+}
+
+#alertdate {
+  width: 100%;
+  height: 59px;
+}
+input#alertinput1 {
+  width: 100%;
+  height: 59px;
+  font-size: 12px;
+  outline-color: #216c98;
+  border: 1px solid #ccc;
+  padding: 19px;
+  z-index: 5;
+}
+
+#alertlist {
+  width: 100%;
+  height: 59px;
+}
+.highlighted {
+  background-color: red;
+}
+.buttongrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+} */

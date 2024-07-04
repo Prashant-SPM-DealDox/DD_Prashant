@@ -1,0 +1,73 @@
+.sample-tutorial {
+    position: relative;
+    height: 100%;
+    /* overflow: hidden; */
+ }
+ .sample-spreadsheets {
+    width: 100%;
+    height: 550px;
+ }
+ body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+ }
+ 
+ #app {
+    height: 100%;
+ }
+ 
+ 
+ .options-container {
+     float: right;
+     width: 280px;
+     padding: 12px;
+     height: 100%;
+     box-sizing: border-box;
+     background: #fbfbfb;
+     overflow: auto;
+ }
+ 
+ .option-row {
+     font-size: 14px;
+     margin-top: 10px;
+ }
+ 
+ /* label {
+     margin-bottom: 6px;
+ }
+ 
+ input {
+     padding: 4px 6px;
+ }
+ 
+ input[type=button] {
+     margin-top: 6px;
+ } */
+ 
+ .buttonStyle{
+     width:240px;
+     height:30px;
+ }
+ 
+ .colorPickerContent {
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+
+.colorRow {
+    display: flex;
+}
+ 
+ .colorDom{
+     width: 14px;
+     height: 14px;
+     margin:4px 6px 4px 6px;
+     display: inline-block;
+     border: solid 1px #333333;
+     vertical-align: top;
+ }
+ 

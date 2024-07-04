@@ -1,0 +1,175 @@
+/* .questionrulescomponent {
+  height: 20px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 10px;
+  left: 37%;
+  text-align: center;
+}
+.questionrulescomponent .questions {
+  font-size: 13px;
+  font-weight: normal;
+  padding: 4%;
+}
+.questionrulescomponent .rules {
+  font-size: 13px;
+  font-weight: normal;
+  padding: 4%;
+  width: 35%;
+}
+.questions {
+  background-color: #216c98;
+  border-right: none;
+  border: 1px solid rgb(83, 82, 82);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+}
+ 
+.rules {
+  background: none;
+  border: 1px solid rgb(83, 82, 82);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.AddRulebtn,
+.AddQue,
+#ibutton {
+  background-color: white;
+  border: none;
+  color: #216c98;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 1.5% 5.5%;
+}
+ 
+.rules.selected {
+  color: white;
+  background-color: #216c98;
+}
+.questions.selected {
+  color: white;
+  background-color: #216c98;
+}
+
+.mainsection-grid-container {
+  display: grid;
+  grid-template-columns: 0.25fr 0.5fr 10fr 0.5fr 0.5fr 0.75fr 1fr;
+  color: #216c98;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+.mainsection-grid-container #moveup p {
+  opacity: 0;
+}
+.mainsection-grid-container:hover #moveup p {
+  opacity: 1;
+}
+.mainsection-grid-container #movedown p {
+  opacity: 0;
+}
+.mainsection-grid-container:hover #movedown p {
+  opacity: 1;
+}
+ 
+.countdiv {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.sectioninputdiv {
+  height: 100%;
+}
+.section-input {
+  height: 100%;
+  width: 100%;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-left: 3px solid #216c98;
+  padding-left: 9px;
+}
+.section-input:active {
+  outline: none;
+}
+.hidediv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hidelable {
+  font-size: 12px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+ 
+#deletebtn {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  border: none;
+  border-bottom: none;
+}
+ 
+#btn-delete {
+  width: 100%;
+  border: none;
+  background-color: white;
+  color: red;
+  height: 58px;
+}
+ 
+#btn-delete.highlighted {
+  background-color: red;
+  color: white;
+}
+#moveup p,
+#movedown p {
+  font-size: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+ 
+.newsectionlabel {
+  position: relative;
+  bottom: 19px;
+  left: 10px;
+  font-size: 11px;
+  font-weight: bold;
+}
+.i-input-category1 {
+  width: 100%;
+  height: 100%;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding-left: 2%;
+}
+.i-input-reference {
+  width: 100%;
+  height: 100%;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding-left: 2%;
+} */

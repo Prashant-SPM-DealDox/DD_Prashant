@@ -1,0 +1,480 @@
+/* .addactionbtn {
+  position: relative;
+  border: none;
+  background-color: white;
+  color: #216c98;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 3px;
+  margin-top: 2%;
+  padding: 1.9% 1.9%;
+}
+.actionmaindiv {
+  display: grid;
+  height: 40px;
+  border: 1px solid #ccc;
+  grid-template-columns: 0.15fr 0.3fr 38%;
+}
+.actionmaindiv:hover {
+  background-color: rgba(240, 248, 255, 0.938);
+}
+.labelaction {
+  position: relative;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 100%;
+  text-wrap: nowrap;
+  padding-left: 10%;
+  margin-top: 7%;
+}
+button.actionangle {
+  position: relative;
+  width: 100%;
+  border: none;
+  padding-left: 20%;
+  color: #216c98;
+  background: none;
+  cursor: pointer;
+}
+.inputaction {
+  position: relative;
+  border: none;
+  border-bottom: 1px solid #216c98;
+  top: 6px;
+  width: 100%;
+  height: 26px;
+  position: relative;
+  outline-color: white;
+  cursor: pointer;
+}
+.dropactionmain {
+  display: grid;
+  grid-template-columns: 0.3fr 2fr 6fr;
+  height: 59px;
+}
+.vanita {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.vasundra {
+  display: grid;
+  grid-template-columns: 0.4fr 0.1fr;
+  width: 100%;
+  height: 59px;
+}
+
+.dropactionmainsurvey-merge-selected {
+  display: grid;
+  grid-template-columns: 0.3fr 1.45fr 4fr;
+  height: 59px;
+}
+.quote-merge-grid,
+.serviceremovegrid {
+  display: grid;
+  height: 40px;
+  grid-template-columns: 1fr 1fr 0.2fr;
+}
+#pcrCalcRangeLabel {
+  position: relative;
+  color: #216c98;
+  font-weight: bold;
+  bottom: 22%;
+  font-size: 11px;
+  float: left;
+  padding: 6px;
+} */
+.dleshowsection {
+  position: relative;
+  font-size: 22px;
+  border: none;
+  background: none;
+  height: 59px;
+  color: #ff0000;
+  width: 100%;
+  cursor: pointer;
+}
+button.dleshowsection.highlightedassetrule {
+  background-color: #f00202;
+  color: white;
+}
+
+/* .labelaction2 {
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  color: #216c98;
+  outline: none;
+  height: 59px;
+  top: 21%;
+  width: 100%;
+  text-align: center;
+} */
+/* .inputresumecalc {
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 59px;
+  font-size: 13px;
+  outline-color: #216c98;
+  width: 100%;
+  padding: 6px;
+} */
+/* .labelresume {
+  position: relative;
+  color: #216c98;
+  font-weight: 800;
+  top: 70%;
+  font-size: 11px;
+  left: 15%;
+}
+input.inputresume {
+  position: relative;
+  left: 43%;
+  bottom: -23%;
+}
+
+#catalogDiv {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  height: 59px;
+} */
+
+button.dleshowsection.highlighted {
+  background-color: red;
+  color: white;
+  width: 100%;
+  height: 59px;
+}
+/* 
+.gridstageadd {
+  display: grid;
+}
+.calcellinputfield {
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 59px;
+  font-size: 13px;
+  outline-color: #216c98;
+  width: 100%;
+  padding: 6px;
+  white-space: nowrap;
+}
+
+.calcalllabel {
+  position: relative;
+  color: #216c98;
+  font-weight: bold;
+  bottom: 22%;
+  font-size: 11px;
+  float: left;
+  padding: 4px;
+}
+
+.calcelllabel {
+  position: relative;
+  color: #216c98;
+  font-weight: bold;
+  bottom: 20%;
+  font-size: 11px;
+  float: left;
+  padding: 4px;
+}
+
+#setpricingmodeldiv {
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+} */
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+#deletesubsection {
+  display: flex;
+  position: relative;
+}
+
+/* Replace Tagged Content */
+/* 
+#replacetaggedDiv {
+  display: grid;
+  height: 59px;
+  grid-template-columns: 1fr;
+}
+
+.replacetaggedinput {
+  position: relative;
+  border: 1px solid #ccc;
+  height: 59px;
+  outline-color: #216c98;
+  border-left: 3px solid #216c98;
+}
+
+.inputNotEmpty {
+  border-left: none;
+}
+
+.replacetaggedinputlabel {
+  position: relative;
+  color: #216c98;
+  font-weight: bold;
+  margin-top: -20px;
+  font-size: 11px;
+  float: right;
+  padding: 6px;
+}
+
+.replacetaggedcontentGrid {
+  display: grid;
+  grid-template-columns: 0.5fr 5%;
+}
+
+#deletesubsection {
+  display: flex;
+  position: relative;
+}
+
+#taggeddlt {
+  position: relative;
+  right: 4%;
+}
+#replacetagDiv {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 59px;
+}
+
+.replacetaginput {
+  position: relative;
+  height: 59px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  outline-color: #216c98;
+  border-left: 3px solid #216c98;
+}
+
+.inputNotEmpty {
+  border-left: none;
+}
+
+.replacetaginputlabel {
+  position: relative;
+  color: #216c98;
+  font-weight: bold;
+  margin-top: -18px;
+  font-size: 11px;
+  padding: 6px;
+}
+
+#replacetagDiv2 {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  height: 59px;
+} */
+
+/* Set Start Date */
+
+/* #setstartdateGrid {
+  display: grid;
+  grid-template-columns: 0.4fr 5%;
+}
+.setstartdatedlt {
+  position: relative;
+  right: 40%;
+  top: -9px;
+}
+#contentaddDiv2 {
+  display: grid;
+  grid-template-columns: 30%;
+}
+#contentaddDiv3 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 6fr 0.5fr;
+  top: 0px;
+}
+.contentaddinput {
+  position: relative;
+  height: 59px;
+  border: 1px solid #ccc;
+  padding: 6px;
+  outline-color: #216c98;
+  border-left: 3px solid #216c98;
+}
+.inputNotEmpty {
+  border-left: none;
+}
+.contentaddinputlabel {
+  padding: 4px;
+  position: relative;
+  color: #216c98;
+  font-weight: bold;
+  margin-top: -7%;
+  font-size: 0.9vw;
+  padding: 4px;
+} */
+/* Service Update */
+/* #validationDiv {
+  display: grid;
+  height: 59px;
+}
+#updateDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 59px;
+}
+#updateGrid2,
+#updateGrid,
+#updateGrid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.input-error {
+  border-color: red;
+} */
+/* ************************************************************************ */
+/* .pcrgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 0.4fr;
+  width: 80%;
+}
+
+#surveyUnmerge,
+#contentadddiv,
+#removeDuplicates,
+#contentremoveDuplicates,
+#resizePercentage,
+#resizeDays,
+#setDuration {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 59px;
+}
+.resumecalcdele,
+.resumebiddele,
+.resumebiddeleFORMULAS {
+  display: grid;
+  grid-template-columns: 0.1fr;
+}
+.setDurationdele,
+.delecontentremove,
+.cotentremovedele,
+.deleserviceupdate {
+  display: grid;
+  grid-template-columns: 0.2fr;
+}
+.showsection,
+.hidesection,
+.hidequestion,
+.showquestion,
+.showvalidation,
+.templatemerge,
+.templateoveright,
+.quoteunmerge,
+.surveyunmerge,
+.quoterefresh,
+.setreadonly,
+.stageresizedays,
+.refreshcalc,
+.setdoctypeslist {
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+  height: 59px;
+}
+.stageremove,
+.stageresize,
+.setquotename {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 59px;
+}
+.addcatalogdele {
+  display: grid;
+  grid-template-columns: 0.04fr;
+}
+div#setcalccell {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 0.3fr;
+}
+.answapply {
+  display: grid;
+  height: 59px;
+  grid-template-columns: 1fr 1fr 0.2fr;
+}
+.startdatedelee,
+.replacetagdele,
+.removedele,
+.setcurrencydele,
+.resizedalestage,
+.pricingdelee,
+.setquotedele {
+  display: grid;
+  grid-template-columns: 0.2fr;
+}
+.setstartdate {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+}
+.customdropdownv {
+  display: grid;
+  grid-template-columns: 2fr 2fr 0.4fr;
+  margin-left: 3.6%;
+  width: 100%;
+}
+.pricedele,
+.margindele {
+  display: grid;
+  grid-template-columns: 5fr 0.5fr;
+}
+.makerequired {
+  display: grid;
+  grid-template-columns: 0.5fr 0.1fr;
+}
+.setcurrency {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.setcustomfield,
+#setAnswerMainDiv {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 0.4fr;
+}
+#setstartdateDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 59px;
+  width: 80%;
+}
+#stageadddiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 59px;
+  width: 92%;
+}
+.setorg,
+.serviceadd {
+  display: grid;
+  grid-template-columns: 0.6fr 0.1fr;
+  height: 59px;
+}
+
+.setdiscountdele,
+.setanswerdele {
+  display: grid;
+  grid-template-columns: 0.9fr;
+}
+.setdiscount {
+  display: grid;
+  grid-template-columns: 0.6fr 0.1fr;
+  height: 59px;
+  width: 129%;
+}
+.stageadddele {
+  display: grid;
+  grid-template-columns: 0.5fr;
+}
+.contentadderromsg {
+  display: grid;
+  grid-template-columns: 0.3fr;
+} */
